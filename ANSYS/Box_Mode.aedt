@@ -1,0 +1,3539 @@
+$begin 'AnsoftProject'
+	Created='Tue Sep 17 16:34:08 2019'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2018, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'HFIEEnvironment'
+		Version(1, 0)
+	$end 'HFIEEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'EmitEnvironment'
+		Version(1, 0)
+	$end 'EmitEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=6
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=1
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1604, 10000, 1, 1, 0, false, false)
+			Materials(1604, 9500, 9, 2, 1, false, false)
+			Scripts(1604, 9502, 33500, 4, 1, false, false)
+			Padstacks(1604, 9003, 12, 105, 1, false, false)
+			Symbols(1604, 9001, 10, 103, 1, false, false)
+			Footprints(1604, 9002, 11, 104, 1, false, false)
+			Components(1604, 9000, 8, 102, 1, false, false)
+			Models(1604, 9004, 13, 106, 1, false, false)
+			Packages(1604, 9005, 33502, 107, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.949999988079071
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=242
+						Green=140
+						Blue=102
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coeffcient='1.77e-005'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'copper'
+			$begin 'Rogers TMM 4 (tm)'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=225
+						Blue=220
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='4.5'
+				dielectric_loss_tangent='0.002'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'Rogers TMM 4 (tm)'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'box'
+				ModTime=1568756014
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'box'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			box(1002, 0, 0, 0, '', 1568756014, '', 'box', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1568756014, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'box'
+				Library=''
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'box')
+					TextProp('Owner', 'SRD', '', 'HFSS')
+				$end 'Properties'
+				CompExtID=6
+			$end 'box'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'HFSSModel'
+		RepRewriteV2=true
+		Name='box'
+		DesignID=0
+		'Allow Material Override'=false
+		'Calculate Lossy Dielectrics'=false
+		'Perform Minimal validation'=false
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			EnableFeedback=false
+			Temperatures(6, '22cel', 136, '22cel', 183, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		'Port Validation Settings'='Standard'
+		SolutionType='Eigenmode'
+		MaterialDensity=1
+		MassOfTissue=1
+		VoxelSize=1
+		TissueObjectList=-1
+		AverageSarMethod=0
+		UseAutoDCThickness=true
+		HaveZwaveSupport=true
+		DCThicknessObjects(6, '"<Effective>"', 136, '"<Effective>"')
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=9671571
+				'Num Lights'=4
+				Light0[4: 6710886, 0, -1, -0.150000005960464]
+				Light1[4: 6710886, -0.600000023841858, 0.100000001490116, -0.5]
+				Light2[4: 6710886, 0.5, 0.100000001490116, -0.5]
+				Light3[4: 6710886, 0.200000002980232, 0.400000005960464, 1]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=5
+				NativeKernel='ACIS'
+				NativeKernelVersionID=10
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=208
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+						$begin 'Group'
+							GroupID=133
+							$begin 'Attributes'
+								Name='Bottom'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+						$begin 'Group'
+							GroupID=180
+							$begin 'Attributes'
+								Name='Top'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+						$begin 'Group'
+							GroupID=206
+							$begin 'Attributes'
+								Name='Sample_Mount'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Bottom_Unnamed_1'
+								Flags=''
+								Color='(143 175 175)'
+								Transparency=0.8
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=133
+								MaterialValue='"copper"'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=5
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Projects\\sample_box\\ANSYS\\Bottom.x_t'
+									$end 'NativeBodyParameters'
+									ParentPartID=6
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=34
+											NumWires=0
+											NumLoops=92
+											NumCoedges=92
+											NumEdges=46
+											NumVertices=46
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000006.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Rotate'
+									ID=134
+									ReferenceCoordSystemID=1
+									$begin 'RotateParameters'
+										KernelVersion=10
+										TargetID=6
+										RotateAxis='X'
+										RotateAngle='90deg'
+									$end 'RotateParameters'
+									ParentPartID=6
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=34
+											NumWires=0
+											NumLoops=92
+											NumCoedges=92
+											NumEdges=46
+											NumVertices=46
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=5
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Top_Unnamed_1'
+								Flags=''
+								Color='(143 175 175)'
+								Transparency=0.8
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=180
+								MaterialValue='"copper"'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=135
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Projects\\sample_box\\ANSYS\\Top.x_t'
+									$end 'NativeBodyParameters'
+									ParentPartID=136
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=11
+											NumWires=0
+											NumLoops=32
+											NumCoedges=32
+											NumEdges=16
+											NumVertices=16
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000136.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Rotate'
+									ID=181
+									ReferenceCoordSystemID=1
+									$begin 'RotateParameters'
+										KernelVersion=10
+										TargetID=136
+										RotateAxis='X'
+										RotateAngle='90deg'
+									$end 'RotateParameters'
+									ParentPartID=136
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=11
+											NumWires=0
+											NumLoops=32
+											NumCoedges=32
+											NumEdges=16
+											NumVertices=16
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=135
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Sample_Mount_Unnamed_1'
+								Flags=''
+								Color='(175 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=206
+								MaterialValue='"Rogers TMM 4 (tm)"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=182
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Projects\\sample_box\\ANSYS\\Sample_Mount.x_t'
+									$end 'NativeBodyParameters'
+									ParentPartID=183
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=16
+											NumCoedges=16
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000183.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Rotate'
+									ID=207
+									ReferenceCoordSystemID=1
+									$begin 'RotateParameters'
+										KernelVersion=10
+										TargetID=183
+										RotateAxis='X'
+										RotateAngle='90deg'
+									$end 'RotateParameters'
+									ParentPartID=183
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=16
+											NumCoedges=16
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=182
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'bottom'
+							bottom(-1)
+						$end 'bottom'
+						$begin 'bottom_unnamed_'
+							bottom_unnamed_(1)
+						$end 'bottom_unnamed_'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'sample_mount'
+							sample_mount(-1)
+						$end 'sample_mount'
+						$begin 'sample_mount_unnamed_'
+							sample_mount_unnamed_(1)
+						$end 'sample_mount_unnamed_'
+						$begin 'top'
+							top(-1)
+						$end 'top'
+						$begin 'top_unnamed_'
+							top_unnamed_(1)
+						$end 'top_unnamed_'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 5)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 134)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 5)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 135)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 181)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 135)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 182)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 207)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 182)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+				PortImpedance='1'
+				GlobalMaterialEnv='vacuum'
+				UseTotalFieldFormulation=true
+				HybridRegionCouplingType='TwoWayCoupled'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+				$begin 'SBRWedgeSettings'
+					MaxWedgeAngle='135deg'
+					IncludeSheetEdges=true
+					ApplySourceDistFilter=false
+					ApplyBoxFilter=false
+				$end 'SBRWedgeSettings'
+				$begin 'PMLData'
+					$begin 'PMLGroups'
+					$end 'PMLGroups'
+				$end 'PMLData'
+				$begin 'SortOrder'
+					Port[1: -1]
+					Terminal[1: -1]
+				$end 'SortOrder'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'ArrayDefinition'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'ArrayDefinition'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					CurvedSurfaceApproxChoice='UseSlider'
+					SliderMeshSettings=5
+				$end 'GlobalSurfApproximation'
+				$begin 'GlobalCurvilinear'
+					Apply=false
+				$end 'GlobalCurvilinear'
+				$begin 'GlobalModelRes'
+					UseAutoLength=true
+				$end 'GlobalModelRes'
+				MeshMethod='Auto'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'HfssGlobalData'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'HfssGlobalData'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Eigenmode'
+					ID=0
+					SetupType='HfssEigen'
+					MinimumFrequency='100MHz'
+					NumModes=1
+					MaxDeltaFreq=10
+					ConvergeOnRealFreq=false
+					MaximumPasses=10
+					MinimumPasses=1
+					MinimumConvergedPasses=1
+					PercentRefinement=30
+					IsEnabled=true
+					BasisOrder=1
+					DoLambdaRefine=true
+					DoMaterialLambda=true
+					SetLambdaTarget=false
+					Target=0.2
+					UseMaxTetIncrease=false
+				$end 'Eigenmode'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+			FieldType='EigenStoredEnergy'
+			IncludePortPostProcessing=false
+			UseSpecifiedIncidentPower=false
+			SourceEntry(ID=-10, Index=0, Terminal=false, Terminated=false, Magnitude='1', Phase='0deg')
+		$end 'Solutions'
+		$begin 'PortFieldDisplay'
+			$begin 'PortFieldDisplay'
+				ScaleFactor=5
+			$end 'PortFieldDisplay'
+		$end 'PortFieldDisplay'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=17
+				Default_PlotFolder='Automatic'
+				Default_Phase='0deg'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'RadField'
+		$end 'RadField'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=15
+				Name='Eigenmode'
+				$begin 'Solution'
+					ID=16
+					Name='AdaptivePass'
+					$begin 'SimDataExtractor'
+						$begin 'Sweeps'
+							$begin 'Sweep'
+								Variable='Pass'
+								Column='1;2;3;4;5;6;7;8;9;10'
+								Units=''
+							$end 'Sweep'
+							$begin 'PostprocessSweep'
+								Variable='NormalizedDistance'
+								RegularSweep=1
+								Units=''
+								Minimum=0
+								Maximum=1
+								Increment=0.01
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phi'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Theta'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phase'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+						$end 'Sweeps'
+						IsPortOnly=false
+					$end 'SimDataExtractor'
+				$end 'Solution'
+				$begin 'Solution'
+					ID=17
+					Name='LastAdaptive'
+					$begin 'SimDataExtractor'
+						SimValue('Mode(1)', 2, 90, false, SimValueID=81, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Q(1)', 1, 90, false, SimValueID=82, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						$begin 'Sweeps'
+							$begin 'PostprocessSweep'
+								Variable='NormalizedDistance'
+								RegularSweep=1
+								Units=''
+								Minimum=0
+								Maximum=1
+								Increment=0.01
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phi'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Theta'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phase'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'Sweep'
+								Variable='X'
+								Column='0'
+								Units=''
+							$end 'Sweep'
+						$end 'Sweeps'
+						IsPortOnly=false
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=14
+				$begin 'Setup'
+					N='Eigenmode'
+					V=0
+					Soln(N='AdaptivePass', V=0)
+					Soln(N='LastAdaptive', V=0)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Eigenmode'
+					I=15
+					Soln(N='AdaptivePass', I=16)
+					Soln(N='LastAdaptive', I=17)
+				$end 'Setup'
+			$end 'ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR352B835215687560482.tmp'
+	$end 'HFSSModel'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='box'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='box'
+			ID='0'
+			$begin 'HfssDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View(WindowPos(3, -1, -1, -11, -45, 0, 0, 1892, 583), OrientationMatrix(-0.0335471108555794, -0.0112810134887695, -0.0180703401565552, 0, -0.0157052837312222, -0.00967767089605331, 0.0351978465914726, 0, -0.0143924709409475, 0.036855012178421, 0.0037114848382771, 0, 0.0114240236580372, -0.00259489193558693, -5.84087753295898, 1, 0, -1.79617834091187, 1.79617834091187, -1, 1, 0.372233390808105, 11.3036298751831), Drawings[3: 'Bottom_Unnamed_1', 'Top_Unnamed_1', 'Sample_Mount_Unnamed_1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=2, dYForGrid=2, dZForGrid=2, dRForGrid=2, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+							$begin 'Eigen Modes Plot 1'
+								ReportID=2
+								ReportName='Eigen Modes Plot 1'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=17
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=2
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=0
+									VersionID=2
+									Name='re(Mode(1))'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='re(Mode(1))'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+										EyePamLow()
+										EyePamVRef()
+										EyePamHigh()
+										EyePamNames()
+										EyePamStrictVRef=false
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=17
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=2
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=1
+									VersionID=3
+									Name='im(Mode(1))'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='im(Mode(1))'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+										EyePamLow()
+										EyePamVRef()
+										EyePamHigh()
+										EyePamNames()
+										EyePamStrictVRef=false
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Eigen Modes Plot 1'
+						$end 'Reports'
+						NextUniqueID=3
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=4
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+						$begin 'Eigen Modes Plot 1'
+							ReportID=2
+							$begin 'Report2D'
+								name='Eigen Modes Plot 1'
+								ReportID=2
+								ReportType=2
+								DisplayType=1
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=0
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=1
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=41
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(AxisX=1, AxisY1=2, AxisY10=16, AxisY11=17, AxisY12=18, AxisY13=19, AxisY14=20, AxisY15=21, AxisY16=22, AxisY17=23, AxisY18=24, AxisY19=25, AxisY2=8, AxisY20=26, AxisY3=9, AxisY4=10, AxisY5=11, AxisY6=12, AxisY7=13, AxisY8=14, AxisY9=15, Grid=27, Header=0, Legend=5, XYHorizScroller=7)
+									$begin 'SourceList'
+									$end 'SourceList'
+									Version='17.0:20150830'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DisplayTypeAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=27
+													$begin 'CartesianGridDescAttribute'
+														ShowXMinor=true
+														ShowYMinor=true
+														ShowXMajor=true
+														ShowYMajor=true
+														ShowBorder=true
+													$end 'CartesianGridDescAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=37
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=39
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=37
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=3
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowHorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=39
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=3
+															LineColor(R=128, G=64, B=100)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='Circle'
+														SymbolColor(R=128, G=0, B=128)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-28
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-20
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=5
+													$begin 'LegendRenderAttribute'
+														$begin 'LegendTableAttrib'
+															$begin 'TableRenderAttribute'
+																$begin 'TableFontAttrib'
+																	$begin 'FontAttribute'
+																		$begin 'Font'
+																			Height=-16
+																			Width=0
+																			Escapement=0
+																			Orientation=0
+																			Weight=400
+																			Italic=0
+																			Underline=0
+																			StrikeOut=0
+																			CharSet=0
+																			OutPrecision=7
+																			ClipPrecision=48
+																			Quality=6
+																			PitchAndFamily=0
+																			FaceName='Arial'
+																		$end 'Font'
+																		Color(R=0, G=0, B=0)
+																	$end 'FontAttribute'
+																$end 'TableFontAttrib'
+																$begin 'TableTitleFontAttrib'
+																	$begin 'FontAttribute'
+																		$begin 'Font'
+																			Height=-16
+																			Width=0
+																			Escapement=0
+																			Orientation=0
+																			Weight=400
+																			Italic=0
+																			Underline=0
+																			StrikeOut=0
+																			CharSet=0
+																			OutPrecision=7
+																			ClipPrecision=48
+																			Quality=6
+																			PitchAndFamily=0
+																			FaceName='Arial'
+																		$end 'Font'
+																		Color(R=0, G=0, B=0)
+																	$end 'FontAttribute'
+																$end 'TableTitleFontAttrib'
+																TableBorderLineWidth=1
+																TableBorderLineColor=0
+																TableGridLineWidth=1
+																TableGridLineColor=12632256
+																TableBackgroundColor=16777215
+																TableHeaderBackgroundColor=14408667
+															$end 'TableRenderAttribute'
+														$end 'LegendTableAttrib'
+														ShowTraceName=true
+														ShowSolutionName=true
+														ShowVariationKey=true
+														FileNameDisplayModeInVariationKey=0
+														DockMode='None'
+													$end 'LegendRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=1
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=2
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=8
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=10
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=12
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=14
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=15
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=16
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=17
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=18
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=19
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=20
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=21
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=22
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=23
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=24
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=25
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=26
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-18
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DisplayTypeAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=-1
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=621
+																Left=375
+																Bottom=9828
+																Right=9554
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=28
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=621
+																Left=375
+																Bottom=9828
+																Right=9554
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=35
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=244
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=31
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=9554
+																Bottom=9925
+																Right=9925
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=621
+																Left=375
+																Bottom=9828
+																Right=9554
+															$end 'GridRect'
+															AxisCollapsed=false
+															AxisExpandCollapseByUser=false
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=32
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=375
+																Bottom=621
+																Right=9554
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=621
+																Left=375
+																Bottom=9828
+																Right=9554
+															$end 'GridRect'
+															AxisCollapsed=false
+															AxisExpandCollapseByUser=false
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=6
+														$begin 'DockableOverlayLayoutAttribute'
+															$begin 'Dock_0'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=4850
+																		Left=344
+																		Bottom=9850
+																		Right=7844
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_0'
+														$end 'DockableOverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+											PlotType=1
+										$end 'MapItem'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(0, 0, -1, 37)
+										IDMapItem(1, 0, -1, 39)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=1
+											TransSrcDwg(-1, 0, 35, 1, 31, 2, 32, 5, 6, 27, 28, 37, 38, 39, 40)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+										PtID(1, -1, 4)
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Eigen Modes Plot 1'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+						$begin 'Eigen Modes Plot 1'
+							ReportID=2
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Eigen Modes Plot 1'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'HfssDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$begin 'Design_0.setup/NativeGeometryFiles'
+NumFiles= 3
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000006.sab
+BIN000000052460
+ACIS BinaryFileğ
+             SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+42NNXUEC366BVGDY5WWV6DCNEZ3MKPX6QSC7VJ85WT84MQG647DQ3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@…914†Ù<ÍÌÌÌÌ3@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6Bottom_Unnamed_1	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@…914†Ù<ÍÌÌÌÌ3@transform%   ÿÿÿÿÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?rgb_color%	   st%
+   %   ÿÿÿÿÿÿÿÿ          Æîß òñññññá?öõõõõõå?òñññññá?
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ÿÿÿÿ   
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@…914†Ù<ÍÌÌÌÌ3@properties%   ansoft%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ Bottom_Unnamed_1           ¯€	face%      ÿÿÿÿÿÿÿÿÿÿÿÿ	   
+      ÿÿÿÿ   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@…914†Ù<ÍÌÌÌÌ3@fctd_mark%   eye%   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@	loop%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+IYÇ"(@…914†Ù<Zh³êsõ@Ã	¶4¨,@…914†Ù<÷`TR'€!@    
+plane%   surface%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                             @@id%   %   %   ÿÿÿÿÿÿÿÿ         ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ	   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@ÍÌÌÌÌÀÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      	   
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@ÍÌÌÌÌÀÍÌÌÌÌ3@    	cone%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ               €      ğ¿       €                ÍÌÌÌÌ3@      ğ?       €      ğ?ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+¢YÇ"(@…914†Ù<_`TR'€!ÀlÃ	¶4¨,@…914†Ù<*g³êsõÀ    coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            
+
+   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ      	   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ    ÿÿÿÿ   ¥îß %   !   ÿÿÿÿÿÿÿÿÿÿÿÿ"   #      ÿÿÿÿ$   
+
+‘í|?5^'Àü©ñÒMbø¿‘í|?5^'À‘í|?5^'@        ‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%   &      
+@8í{@ÍÌÌÌÌÀêôaE~@ŞtÇşÂ@ÍÌÌÌÌÀÄ©U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ                      ğ?                             @@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   	   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      (   )      ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*   +      
+)³êsµò¿…914†Ù<pµûË^0À)³êsµò?…914†Ù<¾0™*8,À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ,   -   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            .   ÿÿÿÿ	edge%   /   ÿÿÿÿÿÿÿÿÿÿÿÿ0           0   -DTû!@   1   unknown
+IYÇ"(@…914†Ù<Zh³êsõ@Ã	¶4¨,@…914†Ù<÷`TR'€!@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ   	   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ2         ¥îÛ 	   %   %   %   ÿÿÿÿÿÿÿÿ3   ÿÿÿÿ   ¥îß %   4   ÿÿÿÿÿÿÿÿÿÿÿÿ5   6      ÿÿÿÿ7   
+‘í|?5^'Àü©ñÒMbø¿‘í|?5^'À‘í|?5^'@ü©ñÒMbø¿‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8   9      
+‘í|?5^'Àü©ñÒMbø¿‘í|?5^'À‘í|?5^'@ü©ñÒMbø¿‘í|?5^'@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿               €      ğ¿       €                ‘í|?5^'@      ğ?       €      ğ?‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:   ;      
+Ï×)”… @ÍÌÌÌÌÀt••äøé%À†J¾Û‰@ÍÌÌÌÌÀ$æ pF À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ&   &   <   =   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   '   >   ?   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(   (      )   
+@   ÿÿÿÿ%   A   ÿÿÿÿÿÿÿÿÿÿÿÿB           B   -DTû!@   C   unknown
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@ÍÌÌÌÌÀÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD   E      
+)Ã	¶4¨,À…914†Ù<£`TR'€!À_YÇ"(À…914†Ù<±g³êsõÀ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+   +   F   G   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   ,      -   H   ÿÿÿÿ%   I   ÿÿÿÿÿÿÿÿÿÿÿÿJ           J   -DTû!@,   K   unknown
+¢YÇ"(@…914†Ù<_`TR'€!ÀlÃ	¶4¨,@…914†Ù<*g³êsõÀ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   L   
+IYÇ"(@…914†Ù<Zh³êsõ@Ã	¶4¨,@…914†Ù<÷`TR'€!@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ )   vertex%   M   ÿÿÿÿÿÿÿÿÿÿÿÿ   N   ellipse%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*@…914†Ù<$®Gáz@              ğ?                        )³êsµò?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿO   !      ¥îÛ 
+   %   %   %   ÿÿÿÿÿÿÿÿP   ÿÿÿÿ"   ¥îß %   Q   ÿÿÿÿÿÿÿÿÿÿÿÿR   S      ÿÿÿÿT   
+
+h³êsµò¿ÍÌÌÌÌÀ¾0™*8,@h³êsµò?…914†Ù<tµûË^0@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿU   V   "   
+@8í{@ü©ñÒMbø¿êôaE~@ŞtÇşÂ@ü©ñÒMbø¿Ä©U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿                      ğ?                             @@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿW      
+‘í|?5^'À        ‘í|?5^'À‘í|?5^'@        ‘í|?5^'@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9   9   X   Y   
+#   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿZ   [      
+ºC¾Û‰ÀÍÌÌÌÌÀv•äøé%À8Ê)”… ÀÍÌÌÌÌÀ&á pF À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;   ;   \   ]   
+%   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ<   <   &   =   ^   ÿÿÿÿ%   _   ÿÿÿÿÿÿÿÿÿÿÿÿ`           `   -DTû!@<   a   unknown
+@8í{@ÍÌÌÌÌÀêôaE~@ŞtÇşÂ@ÍÌÌÌÌÀÄ©U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>   >   '   ?   b   ÿÿÿÿ%   c   ÿÿÿÿÿÿÿÿÿÿÿÿd           d   -DTû!@>   e   unknown
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿf   (      
+ÍÌÌÌÌ3ÀÍÌÌÌÌÀÍÌÌÌÌ3ÀÍÌÌÌÌ3@ÍÌÌÌÌÀÍÌÌÌÌ3@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ)   ¥îÛ 1   %   g   ÿÿÿÿÿÿÿÿÿÿÿÿ)   h   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ                      ğ?                        ÍÌÌÌÌ3@      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿi   j      
+KÃ	¶4¨,À…914†Ù<±g³êsõ@YÇ"(À…914†Ù<£`TR'€!@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿE   E   k   l   
+*   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF   F   +   G   m   ÿÿÿÿ%   n   ÿÿÿÿÿÿÿÿÿÿÿÿo           o   -DTû!@F   p   unknown
+)³êsµò¿…914†Ù<pµûË^0À)³êsµò?…914†Ù<¾0™*8,À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   q   
+¢YÇ"(@…914†Ù<_`TR'€!ÀlÃ	¶4¨,@…914†Ù<*g³êsõÀ    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-   ¥îÛ *   %   r   ÿÿÿÿÿÿÿÿÿÿÿÿ-   s   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*@…914†Ù<ô®GázÀ              ğ?                        )³êsµò?      ğ?%   t   ÿÿÿÿÿÿÿÿÿÿÿÿu   v      ÿÿÿÿw   
+
+AYÇ"(@ÍÌÌÌÌÀJh³êsõ@Ã	¶4¨,@…914†Ù<ÿ`TR'€!@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0   ¥îÛ W   
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*@…914†Ù<÷`TR'€!@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ3      Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿx   4   "   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿy   ÿÿÿÿ5   ¥îß %   z   ÿÿÿÿÿÿÿÿÿÿÿÿ{   |      ÿÿÿÿ}   
+
+SÃ	¶4¨,ÀÍÌÌÌÌÀ¡g³êsõ@yYÇ"(À…914†Ù<ª`TR'€!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ~      5   
+h³êsµò¿ÍÌÌÌÌÀ¾0™*8,@h³êsµò?ÍÌÌÌÌÀtµûË^0@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                {®Gáz.@       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€      "   
+ÃTÇşÂÀü©ñÒMbø¿‰ùaE~@%ö8í{Àü©ñÒMbø¿¬U«b"@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿV   V   ‚   ƒ   
+6   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿW   W   „   …   8   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿX   X   9   Y   †   ÿÿÿÿ%   ‡   ÿÿÿÿÿÿÿÿÿÿÿÿˆ           ˆ   -DTû!@X   ‰   unknown
+‘í|?5^'Àü©ñÒMbø¿‘í|?5^'À‘í|?5^'@ü©ñÒMbø¿‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŠ   ‹      
+…~kår#ÀÍÌÌÌÌÀh4³@¥mÁ8ø!ÀÍÌÌÌÌÀ(V`Èêv@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ[   [   Œ      
+:   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ\   \   ;   ]      ÿÿÿÿ%      ÿÿÿÿÿÿÿÿÿÿÿÿ              -DTû!@\   ‘   unknown
+Ï×)”… @ÍÌÌÌÌÀt••äøé%À†J¾Û‰@ÍÌÌÌÌÀ$æ pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ<   ’   
+@8í{@ÍÌÌÌÌÀêôaE~@ŞtÇşÂ@ÍÌÌÌÌÀÄ©U«b"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=   ¥îÛ 2   %   “   ÿÿÿÿÿÿÿÿÿÿÿÿ=   ”   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ÍÌÌÌÌÀ9¤ÇÍ!@              ğ¿                        <½R–!ö¿      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>      
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?   ¥îÛ 0   %   •   ÿÿÿÿÿÿÿÿÿÿÿÿ?   –   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                        ÍÌÌÌÌ3@      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ—      
+ÃTÇşÂÀÍÌÌÌÌÀ‰ùaE~@%ö8í{ÀÍÌÌÌÌÀ¬U«b"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿB   ¥îÛ _   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ˜   ™      
+)³êsµò¿…914†Ù<¾0™*8,@)³êsµò?…914†Ù<pµûË^0@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿj   j   š   ›   
+D   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿk   k   E   l   œ   ÿÿÿÿ%      ÿÿÿÿÿÿÿÿÿÿÿÿ              -DTû!@k   Ÿ   unknown
+)Ã	¶4¨,À…914†Ù<£`TR'€!À_YÇ"(À…914†Ù<±g³êsõÀ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF       
+)³êsµò¿…914†Ù<pµûË^0À)³êsµò?…914†Ù<¾0™*8,À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG   ¥îÛ +   %   ¡   ÿÿÿÿÿÿÿÿÿÿÿÿG   ¢   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        …914†Ù<{®Gáz.À              ğ?                        )³êsµò?      ğ?%   £   ÿÿÿÿÿÿÿÿÿÿÿÿL   ¤      ÿÿÿÿ¥   
+
+šYÇ"(@ÍÌÌÌÌÀg`TR'€!ÀtÃ	¶4¨,@…914†Ù<g³êsõÀ%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿJ   ¥îÛ X   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*@…914†Ù<*g³êsõÀ%   %   %   ÿÿÿÿÿÿÿÿ¦   ÿÿÿÿL   ¥îß %   §   ÿÿÿÿÿÿÿÿÿÿÿÿ¨   ©      ÿÿÿÿª   
+
+‡P¥fã¿ÍÌÌÌÌÀN^ôE&À‡P¥fã?ü©ñÒMbø¿2=a‰ä#À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.   «   L   
+AYÇ"(@ÍÌÌÌÌÀJh³êsõ@Ã	¶4¨,@ÍÌÌÌÌÀÿ`TR'€!@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*@        $®Gáz@       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿP   "   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ¬   Q   5   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ­   ÿÿÿÿR   ¥îß %   ®   ÿÿÿÿÿÿÿÿÿÿÿÿ    ¯      ÿÿÿÿ°   
+
+1Ã	¶4¨,ÀÍÌÌÌÌÀª`TR'€!ÀWYÇ"(À…914†Ù<¡g³êsõÀ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ±   ²   R   
+SÃ	¶4¨,ÀÍÌÌÌÌÀ¡g³êsõ@yYÇ"(ÀÍÌÌÌÌÀª`TR'€!@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*À        {®Gáz@       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ³   5   
+)³êsµò¿…914†Ù<¾0™*8,@)³êsµò?…914†Ù<pµûË^0@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ´   µ   
+S   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¶   ·   "   
+Ï×)”… @ü©ñÒMbø¿t••äøé%À†J¾Û‰@ü©ñÒMbø¿$æ pF À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ¸   ¹   
+U   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‚   ‚   V   ƒ   º   ÿÿÿÿ%   »   ÿÿÿÿÿÿÿÿÿÿÿÿ¼           ¼   -DTû!@‚   ½   unknown
+@8í{@ü©ñÒMbø¿êôaE~@ŞtÇşÂ@ü©ñÒMbø¿Ä©U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ„   „   W   …   
+˜   ÿÿÿÿ%   ¾   ÿÿÿÿÿÿÿÿÿÿÿÿ¿           ¿   -DTû!@W   À   unknown
+‘í|?5^'À        ‘í|?5^'À‘í|?5^'@        ‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿX   "   
+‘í|?5^'Àü©ñÒMbø¿‘í|?5^'À‘í|?5^'@ü©ñÒMbø¿‘í|?5^'@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿY   ¥îÛ ?   %   Á   ÿÿÿÿÿÿÿÿÿÿÿÿY   Â   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿                      ğ?                        ‘í|?5^'@      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÃ   Ä      
+wmÁ8ø!@ÍÌÌÌÌÀÂ4³@W~kår#@ÍÌÌÌÌÀ‚V`Èêv@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‹   ‹   Å   Æ   Z   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŒ   Œ   [      Ç   ÿÿÿÿ%   È   ÿÿÿÿÿÿÿÿÿÿÿÿÉ           É   -DTû!@Œ   Ê   unknown
+ºC¾Û‰ÀÍÌÌÌÌÀv•äøé%À8Ê)”… ÀÍÌÌÌÌÀ&á pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ\   Ë   
+Ï×)”… @ÍÌÌÌÌÀt••äøé%À†J¾Û‰@ÍÌÌÌÌÀ$æ pF À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ]   ¥îÛ 3   %   Ì   ÿÿÿÿÿÿÿÿÿÿÿÿ]   Í   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ÍÌÌÌÌÀÌ=Ë±4#À              ğ¿                        <½R–!ö¿      ğ?%   Î   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÏ      ÿÿÿÿĞ   
+
+@8í{@ÍÌÌÌÌÀêôaE~@ŞtÇşÂ@{®GázÀÄ©U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ`   ¥îÛ `   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ÍÌÌÌÌÀêôaE~@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿd   ¥îÛ ^   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ—   —   Ñ   Ò   
+f   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿb   „      
+‘í|?5^'À        ‘í|?5^'À‘í|?5^'@        ‘í|?5^'@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ™   ™   ³   Ó   
+i   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿš   š   j   ›   ±   ÿÿÿÿ%   Ô   ÿÿÿÿÿÿÿÿÿÿÿÿÕ           Õ   -DTû!@š   Ö   unknown
+KÃ	¶4¨,À…914†Ù<±g³êsõ@YÇ"(À…914†Ù<£`TR'€!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿk   {   
+)Ã	¶4¨,À…914†Ù<£`TR'€!À_YÇ"(À…914†Ù<±g³êsõÀ    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿl   ¥îÛ ,   %   ×   ÿÿÿÿÿÿÿÿÿÿÿÿl   Ø   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*À…914†Ù<{®GázÀ              ğ?                        )³êsµò?      ğ?%   Ù   ÿÿÿÿÿÿÿÿÿÿÿÿq   Ú      ÿÿÿÿÛ   
+
+h³êsµò¿ÍÌÌÌÌÀtµûË^0Àh³êsµò?…914†Ù<¾0™*8,À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿo   ¥îÛ Y   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        …914†Ù<¾0™*8,À%   %   %   ÿÿÿÿÿÿÿÿÜ   ÿÿÿÿq   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿH   İ   q   
+šYÇ"(@ÍÌÌÌÌÀg`TR'€!ÀtÃ	¶4¨,@ÍÌÌÌÌÀg³êsõÀ    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*@        ô®GázÀ       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   %   %   ÿÿÿÿÿÿÿÿŞ   t   L   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿß   ÿÿÿÿu   ¥îß %   à   ÿÿÿÿÿÿÿÿÿÿÿÿá   â      ÿÿÿÿã   
+
+wmÁ8ø!@ÍÌÌÌÌÀÂ4³@W~kår#@ü©ñÒMbø¿‚V`Èêv@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿä   å   u   
+‡P¥fã¿ÍÌÌÌÌÀN^ôE&À‡P¥fã?ÍÌÌÌÌÀ2=a‰ä#À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿¢E¶óı%À       €      ğ¿       €                ‡P¥fã?      ğ?       €      ğ?‡P¥fã?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ«   «   æ   ç   
+v   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿy   5   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿè   z   R   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿé   ÿÿÿÿ{   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿœ   ê   {   
+1Ã	¶4¨,ÀÍÌÌÌÌÀª`TR'€!ÀWYÇ"(ÀÍÌÌÌÌÀ¡g³êsõÀ    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*À        {®GázÀ       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿš   R   
+KÃ	¶4¨,À…914†Ù<±g³êsõ@YÇ"(À…914†Ù<£`TR'€!@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ²   ²   ë   ì   
+|   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ³   ³   ™   Ó   ~   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ´   ´      µ   í   ÿÿÿÿ%   î   ÿÿÿÿÿÿÿÿÿÿÿÿï           ï   -DTû!@´   ğ   unknown
+h³êsµò¿ÍÌÌÌÌÀ¾0™*8,@h³êsµò?ÍÌÌÌÌÀtµûË^0@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿñ   ò   "   
+ºC¾Û‰Àü©ñÒMbø¿v•äøé%À8Ê)”… Àü©ñÒMbø¿&á pF À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·   ·   ó   ô   
+€   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¸   ¸      ¹   õ   ÿÿÿÿ%   ö   ÿÿÿÿÿÿÿÿÿÿÿÿ÷           ÷   -DTû!@¸   ø   unknown
+ÃTÇşÂÀü©ñÒMbø¿‰ùaE~@%ö8í{Àü©ñÒMbø¿¬U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‚   ù   
+@8í{@ü©ñÒMbø¿êôaE~@ŞtÇşÂ@ü©ñÒMbø¿Ä©U«b"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒ   ¥îÛ @   %   ú   ÿÿÿÿÿÿÿÿÿÿÿÿƒ   û   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ü©ñÒMbø¿9¤ÇÍ!@              ğ?                        <½R–!ö?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ…   ¥îÛ /   %   ü   ÿÿÿÿÿÿÿÿÿÿÿÿ…   ı   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                        ‘í|?5^'@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿˆ   ¥îÛ m   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿş   ÿ      
+‡P¥fã¿ÍÌÌÌÌÀN^ôE&À‡P¥fã?ÍÌÌÌÌÀ2=a‰ä#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄ   Ä        Š   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ   Å   ‹   Æ   
+  ÿÿÿÿ%     ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@‹     unknown
+…~kår#ÀÍÌÌÌÌÀh4³@¥mÁ8ø!ÀÍÌÌÌÌÀ(V`Èêv@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŒ     
+ºC¾Û‰ÀÍÌÌÌÌÀv•äøé%À8Ê)”… ÀÍÌÌÌÌÀ&á pF À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ 4   %     ÿÿÿÿÿÿÿÿÿÿÿÿ     %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀÍÌÌÌÌÀÎ8Ë±4#À              ğ¿                        <½R–!ö¿      ğ?%   	  ÿÿÿÿÿÿÿÿÿÿÿÿ
+       ÿÿÿÿ  
+
+Ï×)”… @ÍÌÌÌÌÀt••äøé%À†J¾Û‰@{®GázÀ$æ pF À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ a   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ÍÌÌÌÌÀt••äøé%À%   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ’   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ^     ’   
+@8í{@{®GázÀêôaE~@ŞtÇşÂ@{®GázÀÄ©U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ÍÌÌÌÌÀ9¤ÇÍ!@       €      ğ?       €                <½R–!ö¿      ğ?       €      ğ?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÑ   Ñ   —   Ò     ÿÿÿÿ%     ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@Ñ     unknown
+ÃTÇşÂÀÍÌÌÌÌÀ‰ùaE~@%ö8í{ÀÍÌÌÌÌÀ¬U«b"@%     ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@³     unknown
+)³êsµò¿…914†Ù<¾0™*8,@)³êsµò?…914†Ù<pµûË^0@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ›   ¥îÛ -   %     ÿÿÿÿÿÿÿÿÿÿÿÿ›     %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*À…914†Ù<{®Gáz@              ğ?                        )³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ Z   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*À…914†Ù<±g³êsõÀ%   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ    ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm         
+h³êsµò¿ÍÌÌÌÌÀtµûË^0Àh³êsµò?ÍÌÌÌÌÀ¾0™*8,À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                {®Gáz.À       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   %   %   ÿÿÿÿÿÿÿÿ  £   q   ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿİ   İ       
+¤   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ¦   L   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿ  §   u   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ¨   ¥îß %     ÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿ!  
+
+…~kår#ÀÍÌÌÌÌÀh4³@¥mÁ8ø!Àü©ñÒMbø¿(V`Èêv@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ"     ¨   
+wmÁ8ø!@ÍÌÌÌÌÀÂ4³@W~kår#@ÍÌÌÌÌÀ‚V`Èêv@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ü©ñÒMbø¿¢E¶óı@       €      ğ¿       €                ‡P¥fã?      ğ?       €      ğ?‡P¥fã?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ#  u   
+‡P¥fã¿ü©ñÒMbø¿N^ôE&À‡P¥fã?ü©ñÒMbø¿2=a‰ä#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿå   å   ÿ   $  
+©   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿæ   æ   «   ç   ş   ÿÿÿÿ%   %  ÿÿÿÿÿÿÿÿÿÿÿÿ&          &  -DTû!@æ   '  unknown
+AYÇ"(@ÍÌÌÌÌÀJh³êsõ@Ã	¶4¨,@ÍÌÌÌÌÀÿ`TR'€!@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ­   R   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿ(  ®   {   ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿê   ê   )  *  
+¯   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿë   ë   ²   ì   +  ÿÿÿÿ%   ,  ÿÿÿÿÿÿÿÿÿÿÿÿ-          -  -DTû!@ë   .  unknown
+SÃ	¶4¨,ÀÍÌÌÌÌÀ¡g³êsõ@yYÇ"(ÀÍÌÌÌÌÀª`TR'€!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@   ´      
+h³êsµò¿ÍÌÌÌÌÀ¾0™*8,@h³êsµò?ÍÌÌÌÌÀtµûË^0@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿµ   ¥îÛ =   %   /  ÿÿÿÿÿÿÿÿÿÿÿÿµ   0  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ{®Gáz.@              ğ?                        h³êsµò?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ1  2  "   
+…~kår#Àü©ñÒMbø¿h4³@¥mÁ8ø!Àü©ñÒMbø¿(V`Èêv@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿò   ò   3  4  
+¶   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿó   ó   ·   ô   5  ÿÿÿÿ%   6  ÿÿÿÿÿÿÿÿÿÿÿÿ7          7  -DTû!@ó   8  unknown
+Ï×)”… @ü©ñÒMbø¿t••äøé%À†J¾Û‰@ü©ñÒMbø¿$æ pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¸   9  
+ÃTÇşÂÀü©ñÒMbø¿‰ùaE~@%ö8í{Àü©ñÒMbø¿¬U«b"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¹   ¥îÛ A   %   :  ÿÿÿÿÿÿÿÿÿÿÿÿ¹   ;  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀü©ñÒMbø¿Ø¨ÇÍ!@              ğ?                        <½R–!ö?      ğ?%   <  ÿÿÿÿÿÿÿÿÿÿÿÿ=  >     ÿÿÿÿ?  
+
+@8í{@Zd;ßÏÀêôaE~@ŞtÇşÂ@ü©ñÒMbø¿Ä©U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼   ¥îÛ n   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ü©ñÒMbø¿Ä©U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿   ¥îÛ ]   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                ‘í|?5^'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@  æ      
+AYÇ"(@ÍÌÌÌÌÀJh³êsõ@Ã	¶4¨,@ÍÌÌÌÌÀÿ`TR'€!@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ÿ   å   $  Ã   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      Ä     
+â   ÿÿÿÿ%   A  ÿÿÿÿÿÿÿÿÿÿÿÿB          B  -DTû!@Ä   C  unknown
+wmÁ8ø!@ÍÌÌÌÌÀÂ4³@W~kår#@ÍÌÌÌÌÀ‚V`Èêv@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD  Å   á   
+…~kår#ÀÍÌÌÌÌÀh4³@¥mÁ8ø!ÀÍÌÌÌÌÀ(V`Èêv@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÆ   ¥îÛ 5   %   E  ÿÿÿÿÿÿÿÿÿÿÿÿÆ   F  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"ÀÍÌÌÌÌÀHE¶óı@              ğ?                        ‡P¥fã?      ğ?%   G  ÿÿÿÿÿÿÿÿÿÿÿÿH  I     ÿÿÿÿJ  
+
+ºC¾Û‰ÀÍÌÌÌÌÀv•äøé%À8Ê)”… À{®GázÀ&á pF À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÉ   ¥îÛ b   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀÍÌÌÌÌÀv•äøé%À%   %   %   ÿÿÿÿÿÿÿÿK  ÿÿÿÿË   ¥îß %   L  ÿÿÿÿÿÿÿÿÿÿÿÿM  N     ÿÿÿÿO  
+
+ÃTÇşÂÀ{®GázÀ‰ùaE~@%ö8í{Àö+’#À¬U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   P  Ë   
+Ï×)”… @{®GázÀt••äøé%À†J¾Û‰@{®GázÀ$æ pF À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ÍÌÌÌÌÀÌ=Ë±4#À       €      ğ?       €                <½R–!ö¿      ğ?       €      ğ?<½R–!ö?%   %   %   ÿÿÿÿÿÿÿÿQ  Î   ’   ¥îÛ (   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    R  S  
+Ï   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÑ   M  
+ÃTÇşÂÀÍÌÌÌÌÀ‰ùaE~@%ö8í{ÀÍÌÌÌÌÀ¬U«b"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒ   ¥îÛ >   %   T  ÿÿÿÿÿÿÿÿÿÿÿÿÒ   U  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀÍÌÌÌÌÀØ¨ÇÍ!@              ğ¿                        <½R–!ö¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓ   ¥îÛ .   %   V  ÿÿÿÿÿÿÿÿÿÿÿÿÓ   W  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        …914†Ù<{®Gáz.@              ğ?                        )³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÕ   ¥îÛ [   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*À…914†Ù<£`TR'€!@%   %   %   ÿÿÿÿÿÿÿÿX  Ù       ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    Y  Z  
+Ú   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÜ   q   Æîß    `YYé?   @::ê?   àİİí?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    İ     @  ÿÿÿÿ%   [  ÿÿÿÿÿÿÿÿÿÿÿÿ\          \  -DTû!@  ]  unknown
+šYÇ"(@ÍÌÌÌÌÀg`TR'€!ÀtÃ	¶4¨,@ÍÌÌÌÌÀg³êsõÀ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿß   u   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿ^  à   ¨   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ_  ÿÿÿÿá   ¥îß %   `  ÿÿÿÿÿÿÿÿÿÿÿÿa  b     ÿÿÿÿc  
+
+EA$ÀkÀö+’#À;H`ëZ%À"Ï]’ÊÁÀƒxæğ°'ÀaâM~Õ À%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àü©ñÒMbø¿HE¶óı@       €      ğ¿       €                ‡P¥fã?      ğ?       €      ğ?‡P¥fã?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿd  ¨   
+wmÁ8ø!@ü©ñÒMbø¿Â4³@W~kår#@ü©ñÒMbø¿‚V`Èêv@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ#  #  e  f  ä   ÿÿÿÿ%   g  ÿÿÿÿÿÿÿÿÿÿÿÿh          h  -DTû!@ÿ   i  unknown
+‡P¥fã¿ÍÌÌÌÌÀN^ôE&À‡P¥fã?ÍÌÌÌÌÀ2=a‰ä#À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿç   ¥îÛ 8   %   j  ÿÿÿÿÿÿÿÿÿÿÿÿç   k  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*@ÍÌÌÌÌÀ$®Gáz@              ğ?                        h³êsµò?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿé   {   Æîß    `YYé?   @::ê?   àİİí?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ)  )  ê   *  l  ÿÿÿÿ%   m  ÿÿÿÿÿÿÿÿÿÿÿÿn          n  -DTû!@)  o  unknown
+1Ã	¶4¨,ÀÍÌÌÌÌÀª`TR'€!ÀWYÇ"(ÀÍÌÌÌÌÀ¡g³êsõÀ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿí   ë      
+SÃ	¶4¨,ÀÍÌÌÌÌÀ¡g³êsõ@yYÇ"(ÀÍÌÌÌÌÀª`TR'€!@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿì   ¥îÛ <   %   p  ÿÿÿÿÿÿÿÿÿÿÿÿì   q  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*ÀÍÌÌÌÌÀ{®Gáz@              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿï   ¥îÛ k   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀtµûË^0@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿr  s  "   
+wmÁ8ø!@ü©ñÒMbø¿Â4³@W~kår#@ü©ñÒMbø¿‚V`Èêv@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2  2  t  u  
+ñ   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3  3  ò   4  v  ÿÿÿÿ%   w  ÿÿÿÿÿÿÿÿÿÿÿÿx          x  -DTû!@3  y  unknown
+ºC¾Û‰Àü©ñÒMbø¿v•äøé%À8Ê)”… Àü©ñÒMbø¿&á pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿó   z  
+Ï×)”… @ü©ñÒMbø¿t••äøé%À†J¾Û‰@ü©ñÒMbø¿$æ pF À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿô   ¥îÛ B   %   {  ÿÿÿÿÿÿÿÿÿÿÿÿô   |  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ü©ñÒMbø¿Ì=Ë±4#À              ğ?                        <½R–!ö?      ğ?%   }  ÿÿÿÿÿÿÿÿÿÿÿÿ~       ÿÿÿÿ€  
+
+ÃTÇşÂÀZd;ßÏÀ‰ùaE~@%ö8í{Àü©ñÒMbø¿¬U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷   ¥îÛ o   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀü©ñÒMbø¿¬U«b"@%   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿù   ¥îß %   ‚  ÿÿÿÿÿÿÿÿÿÿÿÿË   ƒ     ÿÿÿÿ„  
+
+Ï×)”… @{®GázÀt••äøé%À†J¾Û‰@ö+’#À$æ pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿº   …  ù   
+@8í{@Zd;ßÏÀêôaE~@ŞtÇşÂ@Zd;ßÏÀÄ©U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ü©ñÒMbø¿9¤ÇÍ!@       €      ğ¿       €                <½R–!ö?      ğ?       €      ğ?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ†       
+šYÇ"(@ÍÌÌÌÌÀg`TR'€!ÀtÃ	¶4¨,@ÍÌÌÌÌÀg³êsõÀ    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ 6   %   ‡  ÿÿÿÿÿÿÿÿÿÿÿÿ  ˆ  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ÍÌÌÌÌÀ¢E¶óı@              ğ?                        ‡P¥fã?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt  á   
+…~kår#Àü©ñÒMbø¿h4³@¥mÁ8ø!Àü©ñÒMbø¿(V`Èêv@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ c   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"ÀÍÌÌÌÌÀ(V`Èêv@%   %   %   ÿÿÿÿÿÿÿÿ‰  ÿÿÿÿ  ¥îß %   Š  ÿÿÿÿÿÿÿÿÿÿÿÿ‹  Œ     ÿÿÿÿ  
+
+¹Ü]’ÊÁ@ö+’#À9”H`ëZ%ÀH$Àk@ƒxæğ°'À_çM~Õ À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÇ       
+ºC¾Û‰À{®GázÀv•äøé%À8Ê)”… À{®GázÀ&á pF À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀÍÌÌÌÌÀÎ8Ë±4#À       €      ğ?       €                <½R–!ö¿      ğ?       €      ğ?<½R–!ö?%   %   %   ÿÿÿÿÿÿÿÿ  	  Ë   ¥îÛ $   %   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ
+  ¥îß %   ‘  ÿÿÿÿÿÿÿÿÿÿÿÿ’  “     ÿÿÿÿ”  
+
+ÃTÇşÂÀÍÌÌÌÌÀ‰ùaE~@%ö8í{À{®GázÀ¬U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ•  –  
+  
+ÃTÇşÂÀ{®GázÀ‰ùaE~@%ö8í{À{®GázÀ¬U«b"@   O  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀ{®GázÀØ¨ÇÍ!@       €      ğ?                        <½R–!ö¿      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿP  P  —  ˜  
+  ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  ’   Æîß    @11á?   `VVÖ?    ••Õ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿR  R    S  ™  ÿÿÿÿ%   š  ÿÿÿÿÿÿÿÿÿÿÿÿ›          ›  -DTû!@R  œ  unknown
+@8í{@{®GázÀêôaE~@ŞtÇşÂ@{®GázÀÄ©U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ l   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀÍÌÌÌÌÀ‰ùaE~@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ \   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        …914†Ù<pµûË^0@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß    `YYé?   @::ê?   àİİí?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿY  Y    Z  †  ÿÿÿÿ%     ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@Y  Ÿ  unknown
+h³êsµò¿ÍÌÌÌÌÀtµûË^0Àh³êsµò?ÍÌÌÌÌÀ¾0™*8,À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ 9   %      ÿÿÿÿÿÿÿÿÿÿÿÿ  ¡  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*@ÍÌÌÌÌÀô®GázÀ              ğ?                        h³êsµò?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  ¨   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿ¢    á   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ£  ÿÿÿÿ   ¥îß %   ¤  ÿÿÿÿÿÿÿÿÿÿÿÿ¥  ¦     ÿÿÿÿ§  
+
+ºC¾Û‰Àƒxæğ°'Àv•äøé%À8Ê)”… ÀZd;ßÏÀ&á pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¨  ©     
+EA$ÀkÀö+’#À;H`ëZ%À"Ï]’ÊÁÀö+’#ÀaâM~Õ À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀü©ñÒMbø¿Î8Ë±4#À       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿd  d  s  ª  "  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe  e  #  f  
+r  ÿÿÿÿ%   «  ÿÿÿÿÿÿÿÿÿÿÿÿ¬          ¬  -DTû!@#  ­  unknown
+‡P¥fã¿ü©ñÒMbø¿N^ôE&À‡P¥fã?ü©ñÒMbø¿2=a‰ä#À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ$  ¥îÛ 7   %   ®  ÿÿÿÿÿÿÿÿÿÿÿÿ$  ¯  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ¢E¶óı%À              ğ?                        ‡P¥fã?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ&  ¥îÛ f   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*@ÍÌÌÌÌÀÿ`TR'€!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+  )     
+1Ã	¶4¨,ÀÍÌÌÌÌÀª`TR'€!ÀWYÇ"(ÀÍÌÌÌÌÀ¡g³êsõÀ    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*  ¥îÛ ;   %   °  ÿÿÿÿÿÿÿÿÿÿÿÿ*  ±  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*ÀÍÌÌÌÌÀ{®GázÀ              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-  ¥îÛ j   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*ÀÍÌÌÌÌÀª`TR'€!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ†   e  "   
+‡P¥fã¿ü©ñÒMbø¿N^ôE&À‡P¥fã?ü©ñÒMbø¿2=a‰ä#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿs  s  d  ª  
+1  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt  t  2  u  D  ÿÿÿÿ%   ²  ÿÿÿÿÿÿÿÿÿÿÿÿ³          ³  -DTû!@t  ´  unknown
+…~kår#Àü©ñÒMbø¿h4³@¥mÁ8ø!Àü©ñÒMbø¿(V`Èêv@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3  ¥  
+ºC¾Û‰Àü©ñÒMbø¿v•äøé%À8Ê)”… Àü©ñÒMbø¿&á pF À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ4  ¥îÛ C   %   µ  ÿÿÿÿÿÿÿÿÿÿÿÿ4  ¶  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀü©ñÒMbø¿Î8Ë±4#À              ğ?                        <½R–!ö?      ğ?%   ·  ÿÿÿÿÿÿÿÿÿÿÿÿ¸  ¹     ÿÿÿÿº  
+
+Ï×)”… @Zd;ßÏÀt••äøé%À†J¾Û‰@ü©ñÒMbø¿$æ pF À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7  ¥îÛ p   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ü©ñÒMbø¿$æ pF À%   %   %   ÿÿÿÿÿÿÿÿ»  ÿÿÿÿ9  ¥îß %   ¼  ÿÿÿÿÿÿÿÿÿÿÿÿù   ½     ÿÿÿÿ¾  
+
+@8í{@ƒxæğ°'ÀêôaE~@ŞtÇşÂ@Zd;ßÏÀÄ©U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ   ¿  9  
+ÃTÇşÂÀZd;ßÏÀ‰ùaE~@%ö8í{ÀZd;ßÏÀ¬U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀü©ñÒMbø¿Ø¨ÇÍ!@       €      ğ¿       €                <½R–!ö?      ğ?       €      ğ?<½R–!ö?%   %   %   ÿÿÿÿÿÿÿÿÀ  <  ù   ¥îÛ "   %   %   %   ÿÿÿÿÿÿÿÿÁ  ÿÿÿÿ=  ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÂ  —  =  
+Ï×)”… @{®GázÀt••äøé%À†J¾Û‰@{®GázÀ$æ pF À   „  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@{®GázÀÌ=Ë±4#À       €      ğ?                        <½R–!ö¿      ğ?Şêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ…  …  Ã  Ä  
+>  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿl  Y     
+h³êsµò¿ÍÌÌÌÌÀtµûË^0Àh³êsµò?ÍÌÌÌÌÀ¾0™*8,À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿB  ¥îÛ d   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ÍÌÌÌÌÀ‚V`Èêv@%   %   %   ÿÿÿÿÿÿÿÿÅ  G    ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿÆ  ÿÿÿÿH  ¥îß %   Ç  ÿÿÿÿÿÿÿÿÿÿÿÿÈ  É     ÿÿÿÿÊ  
+
+NR-ûâ¤Àö+’#Àşûj`œ@šø7AšÀƒxæğ°'ÀÙª’Ó!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿË  Ì  H  
+¹Ü]’ÊÁ@ö+’#À9”H`ëZ%ÀH$Àk@ö+’#À_çM~Õ À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ü©ñÒMbø¿Ì=Ë±4#À       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    Í  Î  
+I  ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿK  Ë   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÏ  L  
+  ¥îÛ %   %   %   %   ÿÿÿÿÿÿÿÿĞ  ÿÿÿÿM  ¥îß %   Ñ  ÿÿÿÿÿÿÿÿÿÿÿÿ’   ™     ÿÿÿÿÒ  
+
+@8í{@{®GázÀêôaE~@ŞtÇşÂ@ö+’#ÀÄ©U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  Ó  M  
+ÃTÇşÂÀ{®GázÀ‰ùaE~@%ö8í{À{®GázÀ¬U«b"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀÍÌÌÌÌÀØ¨ÇÍ!@       €      ğ?       €                <½R–!ö¿      ğ?       €      ğ?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÔ  
+  
+NR-ûâ¤Àö+’#Àşûj`œ@šø7AšÀö+’#ÀÙª’Ó!@   O  
+%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ–  –  Ó  Õ  N  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ—  —  P  ˜  ƒ  ÿÿÿÿ%   Ö  ÿÿÿÿÿÿÿÿÿÿÿÿ×          ×  -DTû!@—  Ø  unknown
+Ï×)”… @{®GázÀt••äøé%À†J¾Û‰@{®GázÀ$æ pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÙ  R  ’  
+@8í{@{®GázÀêôaE~@ŞtÇşÂ@{®GázÀÄ©U«b"@   Ò  
+%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿS  ¥îÛ V   %   Ú  ÿÿÿÿÿÿÿÿÿÿÿÿS  Û  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@{®GázÀ9¤ÇÍ!@              ğ¿                        <½R–!ö¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿZ  ¥îÛ :   %   Ü  ÿÿÿÿÿÿÿÿÿÿÿÿZ  İ  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ{®Gáz.À              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ\  ¥îÛ g   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*@ÍÌÌÌÌÀg³êsõÀ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ_  á   Æîß    `YYé?   @::ê?   àİİí?%   %   %   ÿÿÿÿÿÿÿÿŞ  `     ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿß  ÿÿÿÿa  ¥îß %   à  ÿÿÿÿÿÿÿÿÿÿÿÿá  â     ÿÿÿÿã  
+
+ºC¾Û‰ÀZd;ßÏÀv•äøé%À8Ê)”… Àü©ñÒMbø¿&á pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿä  å  a  
+ºC¾Û‰ÀZd;ßÏÀv•äøé%À8Ê)”… ÀZd;ßÏÀ&á pF À   §  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀZd;ßÏÀÎ8Ë±4#À              ğ¿                        <½R–!ö?      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿæ     
+EA$ÀkÀƒxæğ°'À;H`ëZ%À"Ï]’ÊÁÀƒxæğ°'ÀaâM~Õ À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ©  ©  ç  è  b  ÿÿÿÿ%   é  ÿÿÿÿÿÿÿÿÿÿÿÿê          ê  -DTû!@d  ë  unknown
+wmÁ8ø!@ü©ñÒMbø¿Â4³@W~kår#@ü©ñÒMbø¿‚V`Èêv@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿf  ¥îÛ F   %   ì  ÿÿÿÿÿÿÿÿÿÿÿÿf  í  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿¢E¶óı%À              ğ?                        ‡P¥fã?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿh  ¥îÛ e   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ2=a‰ä#À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿn  ¥îÛ i   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*ÀÍÌÌÌÌÀ¡g³êsõÀ%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿu  ¥îÛ D   %   î  ÿÿÿÿÿÿÿÿÿÿÿÿu  ï  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àü©ñÒMbø¿HE¶óı@              ğ?                        ‡P¥fã?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx  ¥îÛ q   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀü©ñÒMbø¿&á pF À%   %   %   ÿÿÿÿÿÿÿÿğ  ÿÿÿÿz  ¥îß %   ñ  ÿÿÿÿÿÿÿÿÿÿÿÿ9  ò     ÿÿÿÿó  
+
+ÃTÇşÂÀƒxæğ°'À‰ùaE~@%ö8í{ÀZd;ßÏÀ¬U«b"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ5  ô  z  
+Ï×)”… @Zd;ßÏÀt••äøé%À†J¾Û‰@Zd;ßÏÀ$æ pF À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ü©ñÒMbø¿Ì=Ë±4#À       €      ğ¿       €                <½R–!ö?      ğ?       €      ğ?<½R–!ö?%   %   %   ÿÿÿÿÿÿÿÿõ  }  9  ¥îÛ     %   %   %   ÿÿÿÿÿÿÿÿö  ÿÿÿÿ~  ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷  Ã  ~  
+@8í{@Zd;ßÏÀêôaE~@ŞtÇşÂ@Zd;ßÏÀÄ©U«b"@   ¾  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@Zd;ßÏÀ9¤ÇÍ!@              ğ¿                        <½R–!ö?      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿  ¿  ø  ù  
+  ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  ù   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿú  ‚  =  ¥îÛ #   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿû  =  
+¹Ü]’ÊÁ@ö+’#À9”H`ëZ%ÀH$Àk@ö+’#À_çM~Õ À   „  
+%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÃ  Ã  …  Ä  ½  ÿÿÿÿ%   ü  ÿÿÿÿÿÿÿÿÿÿÿÿı          ı  -DTû!@Ã  ş  unknown
+@8í{@Zd;ßÏÀêôaE~@ŞtÇşÂ@Zd;ßÏÀÄ©U«b"@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ‰    Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÿ  Š  H  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ‹  ¥îß %     ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ  
+
+µ8Aš@ö+’#À_÷j`œ@ir-ûâ¤@ƒxæğ°'ÀŠ¨’Ó!@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ‹  
+NR-ûâ¤Àö+’#Àşûj`œ@šø7AšÀö+’#ÀÙª’Ó!@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀü©ñÒMbø¿Ø¨ÇÍ!@       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  H  
+¹Ü]’ÊÁ@ƒxæğ°'À9”H`ëZ%ÀH$Àk@ƒxæğ°'À_çM~Õ À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÌ  Ì  û    Œ  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÍ  Í    Î  	  ÿÿÿÿ%   
+  ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@Í    unknown
+ºC¾Û‰À{®GázÀv•äøé%À8Ê)”… À{®GázÀ&á pF À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  
+  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ  ‘  M  ¥îÛ &   %   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ’  ¥îß %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@{®GázÀ9¤ÇÍ!@       €      ğ?                        <½R–!ö¿      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓ  Ó  –  Õ  
+“  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÔ  Ô      
+•  ÿÿÿÿ%     ÿÿÿÿÿÿÿÿÿÿÿÿ            -DTû!@–    unknown
+ÃTÇşÂÀ{®GázÀ‰ùaE~@%ö8í{À{®GázÀ¬U«b"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ˜  ¥îÛ T   %     ÿÿÿÿÿÿÿÿÿÿÿÿ˜    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@{®GázÀÌ=Ë±4#À              ğ¿                        <½R–!ö¿      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ’  
+µ8Aš@ö+’#À_÷j`œ@ir-ûâ¤@ö+’#ÀŠ¨’Ó!@   Ò  
+%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ›  ¥îÛ „   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@{®GázÀêôaE~@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ h   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÍÌÌÌÌÀ¾0™*8,À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ£     Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ  ¤  a  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ  ÿÿÿÿ¥  ¥îß %     ÿÿÿÿÿÿÿÿÿÿÿÿ  	     ÿÿÿÿ  
+
+ºC¾Û‰À{®GázÀv•äøé%À8Ê)”… Àö+’#À&á pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv    ¥  
+ºC¾Û‰ÀZd;ßÏÀv•äøé%À8Ê)”… ÀZd;ßÏÀ&á pF À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀü©ñÒMbø¿Î8Ë±4#À       €      ğ¿       €                <½R–!ö?      ğ?       €      ğ?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  a  
+EA$ÀkÀƒxæğ°'À;H`ëZ%À"Ï]’ÊÁÀƒxæğ°'ÀaâM~Õ À   §  
+%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿå  å      ¦  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿæ  æ      ¨  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿç  ç  ©  è  
+  ÿÿÿÿ%     ÿÿÿÿÿÿÿÿÿÿÿÿ              -DTû!@©  !  unknown
+EA$ÀkÀö+’#À;H`ëZ%À"Ï]’ÊÁÀö+’#ÀaâM~Õ À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿª  ¥îÛ E   %   "  ÿÿÿÿÿÿÿÿÿÿÿÿª  #  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ü©ñÒMbø¿¢E¶óı@              ğ?                        ‡P¥fã?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¬  ¥îÛ t   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿2=a‰ä#À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ³  ¥îÛ r   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àü©ñÒMbø¿(V`Èêv@%   %   %   ÿÿÿÿÿÿÿÿ$  ·  z  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ%  ÿÿÿÿ¸  ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ&  ø  ¸  
+ÃTÇşÂÀZd;ßÏÀ‰ùaE~@%ö8í{ÀZd;ßÏÀ¬U«b"@   ó  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀZd;ßÏÀØ¨ÇÍ!@              ğ¿                        <½R–!ö?      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿô  ô  '  (  
+¹  ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ»  9  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ)  ¼  ~  ¥îÛ !   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*  ~  
+µ8Aš@ƒxæğ°'À_÷j`œ@ir-ûâ¤@ƒxæğ°'ÀŠ¨’Ó!@   ¾  
+%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿø  ø  ¿  ù  ò  ÿÿÿÿ%   +  ÿÿÿÿÿÿÿÿÿÿÿÿ,          ,  -DTû!@ø  -  unknown
+ÃTÇşÂÀZd;ßÏÀ‰ùaE~@%ö8í{ÀZd;ßÏÀ¬U«b"@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÁ  =  Æîß    @11á?   `VVÖ?    ••Õ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿû  û  Ì    
+Â  ÿÿÿÿ%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄ  ¥îÛ S   %   .  ÿÿÿÿÿÿÿÿÿÿÿÿÄ  /  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@Zd;ßÏÀ9¤ÇÍ!@              ğ?                        <½R–!ö?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÆ  H  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ0  Ç  ‹  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ1  ÿÿÿÿÈ  ¥îß %   2  ÿÿÿÿÿÿÿÿÿÿÿÿz  3     ÿÿÿÿ4  
+
+Ï×)”… @ƒxæğ°'Àt••äøé%À†J¾Û‰@Zd;ßÏÀ$æ pF À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ5  6  È  
+µ8Aš@ö+’#À_÷j`œ@ir-ûâ¤@ö+’#ÀŠ¨’Ó!@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ü©ñÒMbø¿9¤ÇÍ!@       €      ğ¿       €                h³êsµò?      ğ?       €      ğ?h³êsµò?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7  ‹  
+NR-ûâ¤Àƒxæğ°'Àşûj`œ@šø7AšÀƒxæğ°'ÀÙª’Ó!@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    Ô    É  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    8  9  Ë  ÿÿÿÿ%   :  ÿÿÿÿÿÿÿÿÿÿÿÿ;          ;  -DTû!@Ì  <  unknown
+¹Ü]’ÊÁ@ö+’#À9”H`ëZ%ÀH$Àk@ö+’#À_çM~Õ À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  Í  á  
+ºC¾Û‰À{®GázÀv•äøé%À8Ê)”… À{®GázÀ&á pF À     
+%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎ  ¥îÛ J   %   =  ÿÿÿÿÿÿÿÿÿÿÿÿÎ  >  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀ{®GázÀÎ8Ë±4#À              ğ¿                        <½R–!ö¿      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿĞ  M  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ?  Ñ  ’  ¥îÛ '   %   @  ÿÿÿÿÿÿÿÿÿÿÿÿA          A  -DTû!@  B  unknown
+NR-ûâ¤Àö+’#Àşûj`œ@šø7AšÀö+’#ÀÙª’Ó!@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÕ  ¥îÛ U   %   C  ÿÿÿÿÿÿÿÿÿÿÿÿÕ  D  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀ{®GázÀØ¨ÇÍ!@              ğ¿                        <½R–!ö¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ×  ¥îÛ ‚   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@{®GázÀt••äøé%À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    6  E  
+Ù  ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿß  a  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿF  à  ¥  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿG  ÿÿÿÿá  ¥îß %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀ{®GázÀÎ8Ë±4#À       €      ğ?                        <½R–!ö¿      ğ?Şêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    å    
+â  ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    æ    
+ä  ÿÿÿÿ%   H  ÿÿÿÿÿÿÿÿÿÿÿÿI          I  -DTû!@å  J  unknown
+ºC¾Û‰ÀZd;ßÏÀv•äøé%À8Ê)”… ÀZd;ßÏÀ&á pF À%   K  ÿÿÿÿÿÿÿÿÿÿÿÿL          L  -DTû!@æ  M  unknown
+EA$ÀkÀƒxæğ°'À;H`ëZ%À"Ï]’ÊÁÀƒxæğ°'ÀaâM~Õ À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿç  á  
+EA$ÀkÀö+’#À;H`ëZ%À"Ï]’ÊÁÀö+’#ÀaâM~Õ À     
+%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿè  ¥îÛ G   %   N  ÿÿÿÿÿÿÿÿÿÿÿÿè  O  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀö+’#ÀÎ8Ë±4#À              ğ¿                        h³êsµò¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿê  ¥îÛ s   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ü©ñÒMbø¿‚V`Èêv@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿğ  z  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿP  ñ  ¸  ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿQ  ¸  
+NR-ûâ¤Àƒxæğ°'Àşûj`œ@šø7AšÀƒxæğ°'ÀÙª’Ó!@   ó  
+%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'  '  ô  (  3  ÿÿÿÿ%   R  ÿÿÿÿÿÿÿÿÿÿÿÿS          S  -DTû!@'  T  unknown
+Ï×)”… @Zd;ßÏÀt••äøé%À†J¾Û‰@Zd;ßÏÀ$æ pF À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿö  ~  Æîß    @11á?   `VVÖ?    ••Õ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*  *  U  V  
+÷  ÿÿÿÿ%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿù  ¥îÛ R   %   W  ÿÿÿÿÿÿÿÿÿÿÿÿù  X  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀZd;ßÏÀØ¨ÇÍ!@              ğ?                        <½R–!ö?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿı  ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@Zd;ßÏÀÄ©U«b"@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ   ‹  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿY    È  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿZ  ÿÿÿÿ  ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ[  '    
+Ï×)”… @Zd;ßÏÀt••äøé%À†J¾Û‰@Zd;ßÏÀ$æ pF À   4  
+%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@Zd;ßÏÀÌ=Ë±4#À              ğ¿                        <½R–!ö?      ğ?Úêvêmë¿ßı 1{à?<½R–!ö?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿU  È  
+µ8Aš@ƒxæğ°'À_÷j`œ@ir-ûâ¤@ƒxæğ°'ÀŠ¨’Ó!@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ6  6    E    ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7  7  Q  \    ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8  8    9  
+[  ÿÿÿÿ%   ]  ÿÿÿÿÿÿÿÿÿÿÿÿ^          ^  -DTû!@  _  unknown
+¹Ü]’ÊÁ@ƒxæğ°'À9”H`ëZ%ÀH$Àk@ƒxæğ°'À_çM~Õ À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ K   %   `  ÿÿÿÿÿÿÿÿÿÿÿÿ  a  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ö+’#ÀÌ=Ë±4#À              ğ¿                        h³êsµò¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ x   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀ{®GázÀv•äøé%À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  ’  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ M   %   b  ÿÿÿÿÿÿÿÿÿÿÿÿ  c  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀö+’#ÀØ¨ÇÍ!@              ğ¿                        h³êsµò¿      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ ƒ   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀ{®GázÀ‰ùaE~@%   d  ÿÿÿÿÿÿÿÿÿÿÿÿe          e  -DTû!@6  f  unknown
+µ8Aš@ö+’#À_÷j`œ@ir-ûâ¤@ö+’#ÀŠ¨’Ó!@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ  ¥  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿg    á  ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ I   %   h  ÿÿÿÿÿÿÿÿÿÿÿÿ  i  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀZd;ßÏÀÎ8Ë±4#À              ğ?                        <½R–!ö?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ¥îÛ H   %   j  ÿÿÿÿÿÿÿÿÿÿÿÿ  k  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀƒxæğ°'ÀÎ8Ë±4#À              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ u   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀö+’#À;H`ëZ%À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ%  ¸  Æîß    @11á?   `VVÖ?    ••Õ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿQ  Q  7  \  
+&  ÿÿÿÿ%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(  ¥îÛ Q   %   l  ÿÿÿÿÿÿÿÿÿÿÿÿ(  m  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@Zd;ßÏÀÌ=Ë±4#À              ğ?                        <½R–!ö?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿU  U  *  V  5  ÿÿÿÿ%   n  ÿÿÿÿÿÿÿÿÿÿÿÿo          o  -DTû!@U  p  unknown
+µ8Aš@ƒxæğ°'À_÷j`œ@ir-ûâ¤@ƒxæğ°'ÀŠ¨’Ó!@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,  ¥îÛ €   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀZd;ßÏÀ¬U«b"@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ1  È  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿq  2    ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8    
+¹Ü]’ÊÁ@ƒxæğ°'À9”H`ëZ%ÀH$Àk@ƒxæğ°'À_çM~Õ À   4  
+%   r  ÿÿÿÿÿÿÿÿÿÿÿÿs          s  -DTû!@7  t  unknown
+NR-ûâ¤Àƒxæğ°'Àşûj`œ@šø7AšÀƒxæğ°'ÀÙª’Ó!@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9  ¥îÛ L   %   u  ÿÿÿÿÿÿÿÿÿÿÿÿ9  v  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ƒxæğ°'ÀÌ=Ë±4#À              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;  ¥îÛ y   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ö+’#À9”H`ëZ%À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA  ¥îÛ {   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀö+’#Àşûj`œ@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿE  ¥îÛ O   %   w  ÿÿÿÿÿÿÿÿÿÿÿÿE  x  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ö+’#À9¤ÇÍ!@              ğ¿                        h³êsµò¿      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿG  á  Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿI  ¥îÛ w   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀZd;ßÏÀ&á pF À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿL  ¥îÛ v   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ(SL¥ÌÀƒxæğ°'ÀaâM~Õ À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿS  ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@Zd;ßÏÀ$æ pF À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿV  ¥îÛ P   %   y  ÿÿÿÿÿÿÿÿÿÿÿÿV  z  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ƒxæğ°'À9¤ÇÍ!@              ğ?                        h³êsµò?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿZ    Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ\  ¥îÛ N   %   {  ÿÿÿÿÿÿÿÿÿÿÿÿ\  |  %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀƒxæğ°'ÀØ¨ÇÍ!@              ğ?                        h³êsµò?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ^  ¥îÛ z   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm6SL¥Ì@ƒxæğ°'À_çM~Õ À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe  ¥îÛ }   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ö+’#À_÷j`œ@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿo  ¥îÛ ~   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ2u@ƒxæğ°'ÀŠ¨’Ó!@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿs  ¥îÛ |   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt¥2uÀƒxæğ°'ÀÙª’Ó!@End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileğ
+           SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+459SEQRYSNCCKERNGSE8BU32553QBH8QD9CMCR879FA5VMC6BUB94       X  
+transform%      ÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 51617 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000136.sab
+BIN000000018984
+ACIS BinaryFileğ
+             SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+42NNXUEC366BVGDY5WWV6DCNEZ3MKPX6QSC7VJ85WT84MQG647DQ3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6Top_Unnamed_1	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@transform%   ÿÿÿÿÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?rgb_color%	   st%
+   %   ÿÿÿÿÿÿÿÿ          Æîß òñññññá?öõõõõõå?òñññññá?
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ÿÿÿÿ   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@properties%   ansoft%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ Top_Unnamed_1ˆ           ¯€	face%      ÿÿÿÿÿÿÿÿÿÿÿÿ	   
+      ÿÿÿÿ   
+ÍÌÌÌÌ3Àffffff@ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@fctd_mark%   eye%   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+
+gyÇ):’÷¿şÿÿÿÿo÷<ÔsF”¶0ÀgyÇ):’÷?ffffff@N%ušˆ+À	loop%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+Û[ÅLÅW-Àffffff@¿ùé·/"À}SÂ6s'Àffffff@Ê6<½R–À    
+plane%   surface%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@                      ğ?                             @@id%   %   %   ÿÿÿÿÿÿÿÿ         ¥îÛ ‰   %   %   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ	   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+
+¹}SÂ6s'@şÿÿÿÿo÷<jùé·/"À\ÅLÅW-@ffffff@!6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      	   
+gyÇ):’÷¿şÿÿÿÿo÷<ÔsF”¶0ÀgyÇ):’÷?şÿÿÿÿo÷<N%ušˆ+À    	cone%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@{®Gáz.À       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+4\ÅLÅW-Àffffff@š5<½R–@Ú}SÂ6s'Àffffff@'ùé·/"@    coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            
+
+   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ      	   ¥îÛ Š   %   %   %   ÿÿÿÿÿÿÿÿ    ÿÿÿÿ   ¥îß %   !   ÿÿÿÿÿÿÿÿÿÿÿÿ"   #      ÿÿÿÿ$   
+
+V-²='À{®Gáz@V-²='ÀV-²='@{®Gáz@V-²='@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%   &      
+¹}SÂ6s'@şÿÿÿÿo÷<jùé·/"À\ÅLÅW-@şÿÿÿÿo÷<!6<½R–À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*@ffffff@{®GázÀ       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   	   
+gyÇ):’÷¿ffffff@ÔsF”¶0ÀgyÇ):’÷?ffffff@N%ušˆ+À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      (   )   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*   +      
+gyÇ):’÷¿ffffff@N%ušˆ+@gyÇ):’÷?ffffff@ÔsF”¶0@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ,   -   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            .   ÿÿÿÿ	edge%   /   ÿÿÿÿÿÿÿÿÿÿÿÿ0           0   -DTû!@   1   unknown
+Û[ÅLÅW-Àffffff@¿ùé·/"À}SÂ6s'Àffffff@Ê6<½R–À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ   	   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ2         ¥îÛ ‹   %   %   %   ÿÿÿÿÿÿÿÿ3   ÿÿÿÿ   ¥îß %   4   ÿÿÿÿÿÿÿÿÿÿÿÿ5   6      ÿÿÿÿ7   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8      
+V-²='À{®Gáz@V-²='ÀV-²='@{®Gáz@V-²='@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        {®Gáz@                      ğ?                             @@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9      
+¹}SÂ6s'@ffffff@jùé·/"À\ÅLÅW-@ffffff@!6<½R–À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ&   &   :   ;   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   '   <   =      ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(   (      )   >   ÿÿÿÿ%   ?   ÿÿÿÿÿÿÿÿÿÿÿÿ@           @   -DTû!@(   A   unknown
+gyÇ):’÷¿şÿÿÿÿo÷<ÔsF”¶0ÀgyÇ):’÷?şÿÿÿÿo÷<N%ušˆ+À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿB   C      
+—}SÂ6s'@ffffff@!6<½R–@ñ[ÅLÅW-@ffffff@jùé·/"@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+   +   D   E   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   ,      -   F   ÿÿÿÿ%   G   ÿÿÿÿÿÿÿÿÿÿÿÿH           H   -DTû!@,   I   unknown
+4\ÅLÅW-Àffffff@š5<½R–@Ú}SÂ6s'Àffffff@'ùé·/"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   J   
+Û[ÅLÅW-Àffffff@¿ùé·/"À}SÂ6s'Àffffff@Ê6<½R–À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ”   vertex%   K   ÿÿÿÿÿÿÿÿÿÿÿÿ   L   ellipse%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*Àffffff@$®GázÀ              ğ?                        gyÇ):’÷?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿM   !      ¥îÛ Œ   %   %   %   ÿÿÿÿÿÿÿÿN   ÿÿÿÿ"   ¥îß %   O   ÿÿÿÿÿÿÿÿÿÿÿÿP   Q      ÿÿÿÿR   
+
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@şÿÿÿÿo÷<ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿS   T   "   
+ÍÌÌÌÌ3Àffffff@ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@               €      ğ?       €                ÍÌÌÌÌ3À      ğ?       €      ğ?ÍÌÌÌÌ3@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8   8   U   V   
+#   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9   9   W   X   %   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:   :   &   ;   Y   ÿÿÿÿ%   Z   ÿÿÿÿÿÿÿÿÿÿÿÿ[           [   -DTû!@:   \   unknown
+¹}SÂ6s'@şÿÿÿÿo÷<jùé·/"À\ÅLÅW-@şÿÿÿÿo÷<!6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ<   <   '   =   
+]   ÿÿÿÿ%   ^   ÿÿÿÿÿÿÿÿÿÿÿÿ_           _   -DTû!@'   `   unknown
+gyÇ):’÷¿ffffff@ÔsF”¶0ÀgyÇ):’÷?ffffff@N%ušˆ+À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿa   (   5   
+gyÇ):’÷¿şÿÿÿÿo÷<ÔsF”¶0ÀgyÇ):’÷?şÿÿÿÿo÷<N%ušˆ+À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ)   ¥îÛ ›   %   b   ÿÿÿÿÿÿÿÿÿÿÿÿ)   c   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        şÿÿÿÿo÷<{®Gáz.À              ğ?                        gyÇ):’÷?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ]   W      
+¹}SÂ6s'@ffffff@jùé·/"À\ÅLÅW-@ffffff@!6<½R–À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿC   C   d   e   
+*   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD   D   +   E   f   ÿÿÿÿ%   g   ÿÿÿÿÿÿÿÿÿÿÿÿh           h   -DTû!@D   i   unknown
+gyÇ):’÷¿ffffff@N%ušˆ+@gyÇ):’÷?ffffff@ÔsF”¶0@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   j   
+4\ÅLÅW-Àffffff@š5<½R–@Ú}SÂ6s'Àffffff@'ùé·/"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-   ¥îÛ •   %   k   ÿÿÿÿÿÿÿÿÿÿÿÿ-   l   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*Àffffff@ô®Gáz@              ğ?                        gyÇ):’÷?      ğ?%   m   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿn      ÿÿÿÿo   
+
+Û[ÅLÅW-Àşÿÿÿÿo÷<¿ùé·/"À}SÂ6s'Àffffff@Ê6<½R–À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0   ¥îÛ ¤   
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*Àffffff@Ê6<½R–À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ3      Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿp   4   "   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿq   ÿÿÿÿ5   ¥îß %   r   ÿÿÿÿÿÿÿÿÿÿÿÿs   t      ÿÿÿÿu   
+
+V-²='À        V-²='ÀV-²='@{®Gáz@V-²='@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv   w   5   
+Û[ÅLÅW-Àşÿÿÿÿo÷<¿ùé·/"À}SÂ6s'Àşÿÿÿÿo÷<Ê6<½R–À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                             @@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx   "   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿT   T   y   z   
+6   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿU   U   8   V   t   ÿÿÿÿ%   {   ÿÿÿÿÿÿÿÿÿÿÿÿ|           |   -DTû!@U   }   unknown
+V-²='À{®Gáz@V-²='ÀV-²='@{®Gáz@V-²='@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿW   W   9   X   
+B   ÿÿÿÿ%   ~   ÿÿÿÿÿÿÿÿÿÿÿÿ              -DTû!@9   €   unknown
+¹}SÂ6s'@ffffff@jùé·/"À\ÅLÅW-@ffffff@!6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>   :   5   
+¹}SÂ6s'@şÿÿÿÿo÷<jùé·/"À\ÅLÅW-@şÿÿÿÿo÷<!6<½R–À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;   ¥îÛ œ   %      ÿÿÿÿÿÿÿÿÿÿÿÿ;   ‚   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*@şÿÿÿÿo÷<{®GázÀ              ğ?                        gyÇ):’÷?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒ   <      
+gyÇ):’÷¿ffffff@ÔsF”¶0ÀgyÇ):’÷?ffffff@N%ušˆ+À    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=   ¥îÛ ™   %   „   ÿÿÿÿÿÿÿÿÿÿÿÿ=   …   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@{®Gáz.À              ğ?                        gyÇ):’÷?      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ†   ‡   5   
+V-²='À        V-²='ÀV-²='@        V-²='@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@   ¥îÛ «   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        şÿÿÿÿo÷<N%ušˆ+À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿd   d   C   e   ˆ   ÿÿÿÿ%   ‰   ÿÿÿÿÿÿÿÿÿÿÿÿŠ           Š   -DTû!@d   ‹   unknown
+—}SÂ6s'@ffffff@!6<½R–@ñ[ÅLÅW-@ffffff@jùé·/"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD   Œ   
+gyÇ):’÷¿ffffff@N%ušˆ+@gyÇ):’÷?ffffff@ÔsF”¶0@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿE   ¥îÛ –   %      ÿÿÿÿÿÿÿÿÿÿÿÿE      %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@{®Gáz.@              ğ?                        gyÇ):’÷?      ğ?%      ÿÿÿÿÿÿÿÿÿÿÿÿJ         ÿÿÿÿ‘   
+
+4\ÅLÅW-Àşÿÿÿÿo÷<š5<½R–@Ú}SÂ6s'Àffffff@'ùé·/"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿH   ¥îÛ ¥   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*Àffffff@'ùé·/"@%   %   %   ÿÿÿÿÿÿÿÿ’   ÿÿÿÿJ   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.   “   J   
+Û[ÅLÅW-Àşÿÿÿÿo÷<¿ùé·/"À}SÂ6s'Àşÿÿÿÿo÷<Ê6<½R–À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*Àffffff@$®GázÀ       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿN   "   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ”   O   5   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ•   ÿÿÿÿP   ¥îß %   –   ÿÿÿÿÿÿÿÿÿÿÿÿŒ   —      ÿÿÿÿ˜   
+
+—}SÂ6s'@şÿÿÿÿo÷<!6<½R–@ñ[ÅLÅW-@ffffff@jùé·/"@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ™   U   P   
+V-²='À{®Gáz@V-²='ÀV-²='@{®Gáz@V-²='@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        {®Gáz@               €      ğ?       €                V-²='À      ğ?       €      ğ?V-²='@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿš   ›   5   
+4\ÅLÅW-Àşÿÿÿÿo÷<š5<½R–@Ú}SÂ6s'Àşÿÿÿÿo÷<'ùé·/"@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿw   w   “   œ   Q   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx   x         S   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿy   y   T   z   ƒ   ÿÿÿÿ%   Ÿ   ÿÿÿÿÿÿÿÿÿÿÿÿ                -DTû!@y   ¡   unknown
+ÍÌÌÌÌ3Àffffff@ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿV   ¥îÛ    %   ¢   ÿÿÿÿÿÿÿÿÿÿÿÿV   £   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        {®Gáz@                      ğ?                        V-²='@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿX   ¥îÛ ˜   %   ¤   ÿÿÿÿÿÿÿÿÿÿÿÿX   ¥   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*@ffffff@{®GázÀ              ğ?                        gyÇ):’÷?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ[   ¥îÛ ¬   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*@şÿÿÿÿo÷<!6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿy      
+ÍÌÌÌÌ3Àffffff@ÍÌÌÌÌ3ÀÍÌÌÌÌ3@ffffff@ÍÌÌÌÌ3@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ_   ¥îÛ ©   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@N%ušˆ+À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   5   
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‡   ‡   ¦   §   a   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿd   s   
+—}SÂ6s'@ffffff@!6<½R–@ñ[ÅLÅW-@ffffff@jùé·/"@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe   ¥îÛ —   %   ¨   ÿÿÿÿÿÿÿÿÿÿÿÿe   ©   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*@ffffff@{®Gáz@              ğ?                        gyÇ):’÷?      ğ?%   ª   ÿÿÿÿÿÿÿÿÿÿÿÿj   «      ÿÿÿÿ¬   
+
+gyÇ):’÷¿şÿÿÿÿo÷<N%ušˆ+@gyÇ):’÷?ffffff@ÔsF”¶0@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿh   ¥îÛ ¦   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@ÔsF”¶0@%   %   %   ÿÿÿÿÿÿÿÿ­   ÿÿÿÿj   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF   ®   j   
+4\ÅLÅW-Àşÿÿÿÿo÷<š5<½R–@Ú}SÂ6s'Àşÿÿÿÿo÷<'ùé·/"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*Àffffff@ô®Gáz@       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%   %   %   ÿÿÿÿÿÿÿÿ¯   m   J   ¥îÛ “   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ“   “   w   œ   
+n   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿq   5   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿ°   r   P   ¥îÛ    %   %   %   ÿÿÿÿÿÿÿÿ±   ÿÿÿÿs   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿˆ   ²   s   
+—}SÂ6s'@şÿÿÿÿo÷<!6<½R–@ñ[ÅLÅW-@şÿÿÿÿo÷<jùé·/"@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*@ffffff@{®Gáz@       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¦   P   
+V-²='À        V-²='ÀV-²='@        V-²='@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ³   ´   5   
+gyÇ):’÷¿şÿÿÿÿo÷<N%ušˆ+@gyÇ):’÷?şÿÿÿÿo÷<ÔsF”¶0@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ›   ›   ®   µ   v   ÿÿÿÿ%   ¶   ÿÿÿÿÿÿÿÿÿÿÿÿ·           ·   -DTû!@w   ¸   unknown
+Û[ÅLÅW-Àşÿÿÿÿo÷<¿ùé·/"À}SÂ6s'Àşÿÿÿÿo÷<Ê6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      x      
+†   ÿÿÿÿ%   ¹   ÿÿÿÿÿÿÿÿÿÿÿÿº           º   -DTû!@x   »   unknown
+ÍÌÌÌÌ3À        ÍÌÌÌÌ3ÀÍÌÌÌÌ3@        ÍÌÌÌÌ3@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿz   ¥îÛ š   %   ¼   ÿÿÿÿÿÿÿÿÿÿÿÿz   ½   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@                      ğ?                        ÍÌÌÌÌ3@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ|   ¥îÛ ­   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        {®Gáz@V-²='@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¨   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿælŒ~e*@ffffff@!6<½R–À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¦   ¦   ‡   §   
+™   ÿÿÿÿ%   ¾   ÿÿÿÿÿÿÿÿÿÿÿÿ¿           ¿   -DTû!@‡   À   unknown
+V-²='À        V-²='ÀV-²='@        V-²='@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŠ   ¥îÛ §   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*@ffffff@jùé·/"@%   %   %   ÿÿÿÿÿÿÿÿÁ   ÿÿÿÿŒ   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿf   Â   Œ   
+gyÇ):’÷¿şÿÿÿÿo÷<N%ušˆ+@gyÇ):’÷?şÿÿÿÿo÷<ÔsF”¶0@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@{®Gáz.@       €      ğ¿       €                gyÇ):’÷?      ğ?       €      ğ?gyÇ):’÷?%   %   %   ÿÿÿÿÿÿÿÿÃ      j   ¥îÛ ’   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®   ®   ›   µ   
+   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ’   J   Æîß    @11á?   `VVÖ?    ••Õ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ•   P   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÄ   –   s   ¥îÛ    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ²   ²   Å   Æ   
+—   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿY   Å   5   
+—}SÂ6s'@şÿÿÿÿo÷<!6<½R–@ñ[ÅLÅW-@şÿÿÿÿo÷<jùé·/"@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ´   ´   Â   Ç   š   ÿÿÿÿ%   È   ÿÿÿÿÿÿÿÿÿÿÿÿÉ           É   -DTû!@›   Ê   unknown
+4\ÅLÅW-Àşÿÿÿÿo÷<š5<½R–@Ú}SÂ6s'Àşÿÿÿÿo÷<'ùé·/"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿœ   ¥îÛ Ÿ   %   Ë   ÿÿÿÿÿÿÿÿÿÿÿÿœ   Ì   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*Àşÿÿÿÿo÷<$®GázÀ              ğ?                        gyÇ):’÷?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ    %   Í   ÿÿÿÿÿÿÿÿÿÿÿÿ   Î   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                        ÍÌÌÌÌ3@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ª   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ffffff@ÍÌÌÌÌ3@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ§   ¥îÛ £   %   Ï   ÿÿÿÿÿÿÿÿÿÿÿÿ§   Ğ   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                        V-²='@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÑ   ª   Œ   ¥îÛ ‘   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÂ   Â   ´   Ç   
+«   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ­   j   Æîß    @11á?   `VVÖ?    ••Õ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ±   s   Æîß    @11á?   `VVÖ?    ••Õ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÅ   Å   ²   Æ   ³   ÿÿÿÿ%   Ò   ÿÿÿÿÿÿÿÿÿÿÿÿÓ           Ó   -DTû!@Å   Ô   unknown
+—}SÂ6s'@şÿÿÿÿo÷<!6<½R–@ñ[ÅLÅW-@şÿÿÿÿo÷<jùé·/"@%   Õ   ÿÿÿÿÿÿÿÿÿÿÿÿÖ           Ö   -DTû!@´   ×   unknown
+gyÇ):’÷¿şÿÿÿÿo÷<N%ušˆ+@gyÇ):’÷?şÿÿÿÿo÷<ÔsF”¶0@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿµ   ¥îÛ     %   Ø   ÿÿÿÿÿÿÿÿÿÿÿÿµ   Ù   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*Àşÿÿÿÿo÷<ô®Gáz@              ğ?                        gyÇ):’÷?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·   ¥îÛ ¯   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ®lŒ~e*Àşÿÿÿÿo÷<Ê6<½R–À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿº   ¥îÛ ®   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                ÍÌÌÌÌ3@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿   ¥îÛ ³   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                V-²='@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÁ   Œ   Æîß    @11á?   `VVÖ?    ••Õ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÆ   ¥îÛ ¢   %   Ú   ÿÿÿÿÿÿÿÿÿÿÿÿÆ   Û   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*@şÿÿÿÿo÷<{®Gáz@              ğ?                        gyÇ):’÷?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÇ   ¥îÛ ¡   %   Ü   ÿÿÿÿÿÿÿÿÿÿÿÿÇ   İ   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        şÿÿÿÿo÷<{®Gáz.@              ğ?                        gyÇ):’÷?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÉ   ¥îÛ °   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmŒ~e*Àşÿÿÿÿo÷<'ùé·/"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓ   ¥îÛ ²   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÄlŒ~e*@şÿÿÿÿo÷<jùé·/"@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÖ   ¥îÛ ±   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        şÿÿÿÿo÷<ÔsF”¶0@End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileğ
+           SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+459SEQRYSNCCKERNGSE8BU32553QBH8QD9CMCR879FA5VMC6BUB94       X  
+transform%      ÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 18141 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000183.sab
+BIN000000010647
+ACIS BinaryFileğ
+             SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+42NNXUEC366BVGDY5WWV6DCNEZ3MKPX6QSC7VJ85WT84MQG647DQ3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ßgˆ{Ú<w¾Ÿ/'@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6Sample_Mount_Unnamed_1	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ßgˆ{Ú<w¾Ÿ/'@transform%   ÿÿÿÿÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?rgb_color%	   st%
+   %   ÿÿÿÿÿÿÿÿ          Æîß òñññññá?öõõõõõå?òñññññá?
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ÿÿÿÿ   
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ßgˆ{Ú<w¾Ÿ/'@properties%   ansoft%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ Sample_Mount_Unnamed_1·           ¯€	face%      ÿÿÿÿÿÿÿÿÿÿÿÿ	   
+      ÿÿÿÿ   
+w¾Ÿ/'À        w¾Ÿ/'Àw¾Ÿ/'@ßgˆ{Ú<w¾Ÿ/'@fctd_mark%   eye%   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@        w¾Ÿ/'@	loop%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+É¿"¥	$Àßgˆ{Ú<à±ï§†@a,
+¡Ãz Àßgˆ{Ú<°ØÎ÷S£@    
+plane%   surface%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                             @@id%   %   %   ÿÿÿÿÿÿÿÿ         ¥îÛ ¸   %   %   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ	   ¥îß %      ÿÿÿÿÿÿÿÿÿÿÿÿ         ÿÿÿÿ   
+
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ü©ñÒMbø¿w¾Ÿ/'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      	   
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ü©ñÒMbø¿w¾Ÿ/'@    	cone%   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿               €      ğ¿       €                w¾Ÿ/'@      ğ?       €      ğ?w¾Ÿ/'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         
+3,
+¡Ãz @ßgˆ{Ú<:²ï§†@›¿"¥	$@ßgˆ{Ú<
+ÙÎ÷S£@    coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            
+
+   ÿÿÿÿ%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿ      	   ¥îÛ ¹   %   %   %   ÿÿÿÿÿÿÿÿ    ÿÿÿÿ   ¥îß %   !   ÿÿÿÿÿÿÿÿÿÿÿÿ"   #      ÿÿÿÿ$   
+
+D›Ä °rì¿ü©ñÒMbø¿VÂõ(Ü&ÀD›Ä °rì?ßgˆ{Ú<îû©ñÒM#À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%   &      
+É¿"¥	$Àü©ñÒMbø¿à±ï§†@a,
+¡Ãz Àü©ñÒMbø¿°ØÎ÷S£@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿                      ğ?                             @@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   	   
+w¾Ÿ/'À        w¾Ÿ/'Àw¾Ÿ/'@        w¾Ÿ/'@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      (   )      ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*   +      
+D›Ä °rì¿ßgˆ{Ú<VÂõ(Ü&ÀD›Ä °rì?ßgˆ{Ú<îû©ñÒM#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ,   -   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            .   ÿÿÿÿ	edge%   /   ÿÿÿÿÿÿÿÿÿÿÿÿ0           0   -DTû!@   1   unknown
+É¿"¥	$Àßgˆ{Ú<à±ï§†@a,
+¡Ãz Àßgˆ{Ú<°ØÎ÷S£@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ   	   Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿ2         ¥îÛ º   %   %   %   ÿÿÿÿÿÿÿÿ3   ÿÿÿÿ   ¥îß %   4   ÿÿÿÿÿÿÿÿÿÿÿÿ5   6      ÿÿÿÿ7   
+
+3,
+¡Ãz @ü©ñÒMbø¿:²ï§†@›¿"¥	$@ßgˆ{Ú<
+ÙÎ÷S£@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8   9      
+:›Ä °rì¿ü©ñÒMbø¿VÂõ(Ü&À:›Ä °rì?ü©ñÒMbø¿îû©ñÒM#À    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                ¢E¶óı%À       €      ğ¿       €                D›Ä °rì?      ğ?       €      ğ?D›Ä °rì?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:   ;      
+3,
+¡Ãz @ü©ñÒMbø¿:²ï§†@›¿"¥	$@ü©ñÒMbø¿
+ÙÎ÷S£@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ&   &   <   =      ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'   '   >   ?   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(   (      )   
+@   ÿÿÿÿ%   A   ÿÿÿÿÿÿÿÿÿÿÿÿB           B   -DTû!@   C   unknown
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ü©ñÒMbø¿w¾Ÿ/'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>      
+w¾Ÿ/'À        w¾Ÿ/'Àw¾Ÿ/'@        w¾Ÿ/'@    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+   +   D   E   
+   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   ,      -   F   ÿÿÿÿ%   G   ÿÿÿÿÿÿÿÿÿÿÿÿH           H   -DTû!@,   I   unknown
+3,
+¡Ãz @ßgˆ{Ú<:²ï§†@›¿"¥	$@ßgˆ{Ú<
+ÙÎ÷S£@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   5   
+É¿"¥	$Àßgˆ{Ú<à±ï§†@a,
+¡Ãz Àßgˆ{Ú<°ØÎ÷S£@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¾   vertex%   J   ÿÿÿÿÿÿÿÿÿÿÿÿ   K   ellipse%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àßgˆ{Ú<HE¶óı@              ğ?                        D›Ä °rì?      ğ?%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿL   !      ¥îÛ »   %   %   %   ÿÿÿÿÿÿÿÿM   ÿÿÿÿ"   ¥îß %   N   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿO      ÿÿÿÿP   
+
+É¿"¥	$Àü©ñÒMbø¿à±ï§†@a,
+¡Ãz Àßgˆ{Ú<°ØÎ÷S£@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF   Q   "   
+3,
+¡Ãz @ü©ñÒMbø¿:²ï§†@›¿"¥	$@ü©ñÒMbø¿
+ÙÎ÷S£@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@        ¢E¶óı@       €      ğ¿       €                D›Ä °rì?      ğ?       €      ğ?D›Ä °rì?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD      
+D›Ä °rì¿ßgˆ{Ú<VÂõ(Ü&ÀD›Ä °rì?ßgˆ{Ú<îû©ñÒM#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9   9   R   S   
+#   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@   R      
+:›Ä °rì¿ü©ñÒMbø¿VÂõ(Ü&À:›Ä °rì?ü©ñÒMbø¿îû©ñÒM#À    %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;   ;   Q   T   %   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ<   <   &   =   
+O   ÿÿÿÿ%   U   ÿÿÿÿÿÿÿÿÿÿÿÿV           V   -DTû!@&   W   unknown
+É¿"¥	$Àü©ñÒMbø¿à±ï§†@a,
+¡Ãz Àü©ñÒMbø¿°ØÎ÷S£@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>   >   '   ?   *   ÿÿÿÿ%   X   ÿÿÿÿÿÿÿÿÿÿÿÿY           Y   -DTû!@>   Z   unknown
+w¾Ÿ/'À        w¾Ÿ/'Àw¾Ÿ/'@        w¾Ÿ/'@%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(      
+w¾Ÿ/'Àü©ñÒMbø¿w¾Ÿ/'Àw¾Ÿ/'@ü©ñÒMbø¿w¾Ÿ/'@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ)   ¥îÛ Â   %   [   ÿÿÿÿÿÿÿÿÿÿÿÿ)   \   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿                      ğ?                        w¾Ÿ/'@      ğ?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿD   D   +   E   8   ÿÿÿÿ%   ]   ÿÿÿÿÿÿÿÿÿÿÿÿ^           ^   -DTû!@D   _   unknown
+D›Ä °rì¿ßgˆ{Ú<VÂõ(Ü&ÀD›Ä °rì?ßgˆ{Ú<îû©ñÒM#À%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,   "   
+3,
+¡Ãz @ßgˆ{Ú<:²ï§†@›¿"¥	$@ßgˆ{Ú<
+ÙÎ÷S£@    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-   ¥îÛ ¿   %   `   ÿÿÿÿÿÿÿÿÿÿÿÿ-   a   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ßgˆ{Ú<¢E¶óı@              ğ?                        D›Ä °rì?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0   ¥îÛ Æ   
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àßgˆ{Ú<°ØÎ÷S£@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿ3      Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿb   4   "   ¥îÛ ¼   %   %   %   ÿÿÿÿÿÿÿÿc   ÿÿÿÿ5   ¥îß %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.   <   5   
+É¿"¥	$Àü©ñÒMbø¿à±ï§†@a,
+¡Ãz Àü©ñÒMbø¿°ØÎ÷S£@    %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"À        HE¶óı@       €      ğ¿       €                D›Ä °rì?      ğ?       €      ğ?D›Ä °rì?%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿQ   Q   ;   T   
+6   ÿÿÿÿ%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿR   R   9   S   :   ÿÿÿÿ%   d   ÿÿÿÿÿÿÿÿÿÿÿÿe           e   -DTû!@R   f   unknown
+:›Ä °rì¿ü©ñÒMbø¿VÂõ(Ü&À:›Ä °rì?ü©ñÒMbø¿îû©ñÒM#À%   g   ÿÿÿÿÿÿÿÿÿÿÿÿh           h   -DTû!@;   i   unknown
+3,
+¡Ãz @ü©ñÒMbø¿:²ï§†@›¿"¥	$@ü©ñÒMbø¿
+ÙÎ÷S£@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=   ¥îÛ Ã   %   j   ÿÿÿÿÿÿÿÿÿÿÿÿ=   k   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àü©ñÒMbø¿HE¶óı@              ğ?                        D›Ä °rì?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?   ¥îÛ Á   %   l   ÿÿÿÿÿÿÿÿÿÿÿÿ?   m   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                      ğ?                        w¾Ÿ/'@      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿB   ¥îÛ Ê   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿w¾Ÿ/'@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿE   ¥îÛ À   %   n   ÿÿÿÿÿÿÿÿÿÿÿÿE   o   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ßgˆ{Ú<¢E¶óı%À              ğ?                        D›Ä °rì?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿH   ¥îÛ Ç   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ßgˆ{Ú<
+ÙÎ÷S£@%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿM   "   Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿp   N   5   ¥îÛ ½   %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿS   ¥îÛ Å   %   q   ÿÿÿÿÿÿÿÿÿÿÿÿS   r   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿¢E¶óı%À              ğ?                        :›Ä °rì?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿT   ¥îÛ Ä   %   s   ÿÿÿÿÿÿÿÿÿÿÿÿT   t   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ü©ñÒMbø¿¢E¶óı@              ğ?                        D›Ä °rì?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿV   ¥îÛ Ë   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿv£îA"Àü©ñÒMbø¿°ØÎ÷S£@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿY   ¥îÛ É   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                w¾Ÿ/'@%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ^   ¥îÛ È   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ßgˆ{Ú<îû©ñÒM#À%	   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿc   5   Æîß     ŸŸï?   €ï?      ğ?%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe   ¥îÛ Í   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ü©ñÒMbø¿îû©ñÒM#À%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿh   ¥îÛ Ì   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçu£îA"@ü©ñÒMbø¿
+ÙÎ÷S£@End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileğ
+           SpatialACIS 28.0 NTTue Sep 17 16:53:33 2019      ğ?íµ ÷Æ°>»½×Ùß|Û=
+459SEQRYSNCCKERNGSE8BU32553QBH8QD9CMCR879FA5VMC6BUB94       X  
+transform%      ÿÿÿÿ      ğ?                              ğ?                              ğ?                              ğ?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 9805 
+$end 'sab'
+$end 'Design_0.setup/NativeGeometryFiles'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAor41+I/7UOpXus618Pv2d9C0rxv4u8P6rqnh7xr8QvGkHi7Rfg38Ob6xll0W9XS9ZsdB2fHrxzpvi\
+Vb+C+8LeHNTsrS0ufBeuaH4q8Y+CNbTTLbUfnLWvg+fidJLfftDeNvFfx1uNRIOqeC/EWpahoP7P/wB\
+lM51O28OW37OWg6inhbxL4c03xBNcXmi3XjK18X+LLJ4NOa98WapdaPpV3abQoylq/dX4/d/mediMyp\
+Um4U4+3mt7O0U+zlZ3fT3VKz0dmfaHxA/az/Zv+GXiHV/BPir4w+DZPiTon2D7f8H/AAjfTfEX44N/a\
+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'
+	$begin 'DesignInfo'
+		DesignName='box'
+		Notes=''
+		Factory='HFSS'
+		IsSolved=true
+		'Nominal Setups'[1: 'Eigenmode']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii\
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiivmLxP+2j+yn4U1XXPDNz8evhx4i8deH\
+NVv8AQdW+Fvw416H4sfGSHXNIvpNO13RrX4MfC9dY8VapqumzW98+qW9ro802l22lXt5qCW1pZXc8LS\
+b2TfoROpTpLmqVI013k0l+J9O0V8S3n7bujX0qy/Dj9nb9qD4p6GsYjuvEFn4B8H/BmKz1UM7T6M3hf\
+9qv4i/D7xDfyR2b2M5v7PRbrRZRqIt7fVJr611G0sqn/DaPif8A6Ms/ar/8H37G3/0XVX7Kp/Lb8Dme\
+YYNOyrqXmlKS+TSafyZ9y0V8Nf8ADaPif/oyz9qv/wAH37G3/wBF1R/w2j4nH/Nln7Vf/g+/Y2/+i6o\
+9lU/l/Ff5i/tDCf8AP3/yWf8A8ifctFfHUX7eX7OBljGoX/xm8NWBkQX3iPxt+yr+1V4D8GaBZlh9p1\
+vxd458afBew0bwZ4YtYd89/q2rX1lpmnWkEt5f3dtawyzJ7h8Mfjv8D/jZ/bf/AApr4y/Cn4t/8Iz/A\
+Gb/AMJJ/wAKx+IfhHx7/wAI/wD2z9v/ALH/ALb/AOEV1i7/ALK+1/2Vqn2bz/L8/wDs248rf5Mm2XCc\
+VdxaXmmb08Th6r5aVeFST6RlFvvsm+mp6rRRRUmwUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUVynjfx\
+34H+GfhfU/G/xI8ZeFPh/4L0T7F/bPi/xv4i0jwp4X0j+0tQtNI07+09f168t7Sw+0arf2NrD5sqebc\
+XsUMe6SRFb4P8AGfxC+Iv7Q3m6csHiv4M/Atrg6hpMvh/xn44+Hvx9+K1qmxdFufFU2gWWi6x+zv4Uj\
+vbaTVY9I0/V5fFmtQXuj2vieXwaln4q8C63cISm9NF3OXE4ulho+8+apLaK3fn5Lu36K7sn9CfE79q3\
+4X/DvxDqXgHR4vEfxg+Lek/Y/wC1fhH8H7LSfEvi/wAO/b7HT9asf+FhazrOt6b4b+Dv2vwzfS6npP8\
+Awmmv+Hf+EhtdMuovDn9r38a2Unzhqvi/9rP4iOZNa+KXhH9nvR5JI7y18N/Abwxo/wARPHWl3drEbA\
+afq3xo+PHhW+0Xxj4YvEe61CWC1+FvhvU7S5lsbGLWbi2069n17T8JeDvCPgDw9p/hLwJ4V8OeCvCmk\
+/a/7K8M+EtD0zw34e0z7ffXOp339n6Lo1rDbWXnale3lxL5cS+ZPdyyvmSRmPSL1H1H866Y0oR6cz7v\
+/Lb8/U8StjsTWfx+xh/LBtffLSTa125U/wCW+p4Pe/su/A/xB5X/AAsLwhf/ABt+yb/7I/4aO8bePv2\
+lv+EZ+0bP7Q/4Q3/hf3ijxJ/whX23ybL+0f7J+xf2l/ZNj9v+0fYLLyPbdG0bSPDukaV4f8P6VpuhaD\
+oWm2OjaJomjWNrpmkaNpGmWsVlpulaVptlEkOn6bb2UEMMEEKJFDFCscaqigDSorQ41GKbaik31tqfH\
+nizxv4t8XfG3W/g1cfGdP2e47RtPf4cab4b0TwJf/FL41onhCz8Ta54k8LeJfippOuaDd+GdOlvPE1h\
+rHhbT/C9z4l0uTwXp3iS+1+w0PxBY6de2dJ8ReKvhl8Zvh/8Lbz42eI/jvf/ABEXVZvEvhHxtZ/CSy8\
+d/C7wlpvhfxjrmjfGG0tvhD8PPDr2/wAObnxV4VXwpfvrOnXVtda1400IadrWl3Nlc6V4jn+L3hXwx4\
+117xF4Y8ZeHNB8W+G9TOj/ANpeHvE+j6fr2h6h9jttH1C0+3aTqtvLb3flX9pazx+ZG2ya2jkXDorDU\
++AvgDwJ8OdS1PQ/h74K8JeBNFurS91W50jwZ4b0fwvpdxqc8uh2k+pT6follBFNfva2NlE8zIZGjs4k\
+LFY0A0aXLfy/rU4VVk6/s/72/NLbm25dttL/AIX1Pp+kbofof5UtI3Q/Q/yrM7yCvNviH8HvhH8WBpH\
+/AAtP4WfDn4l/2Ab/APsL/hYHgjwz4y/sX+1fsf8Aan9k/wDCRaZc/wBm/af7N077R5OzzvsEPmbvKT\
+b6KWdUdjHudfMKxxOrNIFLeWFaXYBIyBcgkKrNjcQNxSVguwENl32jCswBCO+XKghFwp5bAyQudxAIJ\
+qMlaSun3/4J4lY/BOz8KmC6+F/xS+Pnwmv9Ki+zeFovCfxt+IGv+BfBemiI2S6D4V+BXxS1jxF8OtO8\
+MQ6K81hp+lP4Ql07RLYwtoVrpl1Y6bc2fo/hz4z/ALR/wl22/ia0/wCGqvBEW7/iYWCeBPhn+0fpu/z\
+3/e2mdB+Hvxa87V9St0XYfhh/YOg+HSzf8Jrrdx++6AuhLoGUuqB2QMN6o5cIzLnIUmNwD0JQ46Gvlb\
+SPi/8AG74haRp3jf4R/CT4Va78MPFWn2eueBPEPxB+Oni7wF4p8S+F9StYrrSPFF14O8P/ALPfiSHw/\
+pupWcsV9p0E+rPqQ03ULRtXsNG1Zr3RrBOEZbxT/rvv+JcK9Sg06VWUPKN2uid4Wceyu1ddGtD9Mfhb\
++0v8CfjNqk/hr4ffEnQdR8c2WlXWvax8LtbXUfBHxj8N6Ha39npz6z4t+DPjmx03xV4Q0qSfU9He3uN\
+U0e0hurbXtOvLZ5rTUbKef3Ovxv0jUvCnx3l1j4dfFj4ZyeHfiD8NJPCnjWXRb/UtP1ebw5f6y3i3Q/\
+Bnxj+DPxM8KXsd9oMra34X8fxeHdcj/wCEX8b6YdCbULnR/Ds11Y+d9A+A/jV4z+BEtrpPxd8UR+Mvg\
+DbRx6XpvxN1mHVZfiN8GLGJmksL/wCOPi7U/EF2Pid8NUS4Nhc+MWtdN1jwvZ6Np+q+OJPFFpd+LfH+\
+gYToNfDr5dfw3PWw2aKbUcRFQvpzq6jfZ80Xdx163aXWyVz9D6KKK5z2AooooAKKKKACiiigAoor4r/\
+ba1xtY8F+Df2fLN45H/aU8T3/AID8dxW8kV1qWnfATRPDWr+KfjXqFxoscf2keGNb0fT9F+HN1rNvca\
+dJ4d1H9oDRtTtNRTWE0mx1Cox5pKK6mVerGhSqVZK6gtu7eiXldtK+yvd6Hjp8XN+0J8RJfjJJNJc/C\
+rwpJqPhv9n3QruaK90+6vNI1bxp4X8Y/tJ6ZNYYsdRj8Z6He2ln4Pvo5NX8nwHaR6zo2r2EfxH8T6DB\
+xGtftNfB/SNX1XRLPU/Gnji90DUb7Q/EU3wi+EPxf+NmkeGvEmlXUtpq/hHxN4g+EHgTXLDw541s5Yl\
+N7ot9cwarZxXdtPc2cUN3ayTe/v8AeP4fyFflb4a+NPxY/Z/8L6B8EPAng34YfHq3+HPh3w94T8L2cH\
+j7xT8MfHWgeEtA0HS9K8MaH8Q7e2+HvizRD4i/4Rqxgvn1691bwlba889xDpHhm2e0Rbz0IQurRW1tP\
+6/E+OxWK9nL2laoouq23JpvXSySTvtot7JJH6W+EvGPhHx/4e0/xb4E8VeHPGvhTVvtf9leJvCWuaZ4\
+k8Pan9gvrnTL7+z9a0a6mtr3ydSsry3l8uVvLntJYnxJGyjgvF3x++EXgjWbvw1q/jG31Hxdpklp/a3\
+gbwVpWvfEjx/o1ve2cOoW2p634C+HmlaprOjaI1pdWDfb7qxisg2q2UbXAkvbRJvhT4d/D/x94m8WfF\
+j4pePfFVh4O1n4tazoEHiXwx8Czqfgl5/DPgTTpbLwB4b8UfFq0az8Q+L77SUvbm5TXNNj8J6nfS61e\
+6Vqp1DwtBoPh/RPYr7Uvh58GfCun28en6d4Q8MW962naH4b8IeF7qd7jUNQlvdWubHw14M8G6TNc6ne\
+Mqatf3EVjZyukFre6hOqwQXM6aeySdndt9F/X6f5HFLHtxThFJfzS29bXTSa11d1truei3Xx++J2qbP\
++EQ+AN3pfkbv7Q/4XH8TfCfgvz/N2/ZP+Ec/4VPafED+0tvl3P2z7f/ZHk+Za/Zft/m3P2Lybx58aPi\
+roMUEPjj4w/Dv4cw+JJLqbSfDXwu+F2t+MPjDEtlJZ3l1pHge+8Q+Idci8fSael5YJquoJ8Oj5mmSXF\
++dM0Ayx3Gn+c6n48+KXjXdFpMP/AApzw+2P9JuF8O+LPind48tvkhzqPhnwX5d7aSKd3/CXf2jp2qAj\
++wNQj+SDw54Q8PeGm1C50uxkbU9YW0Gua/q1/qXiHxT4gFis8enDxF4r8QXd1qXiAWttcSwWn226n+y\
+2222t/Kt0SNdY0ordJfj+d0vl8zhrY2s24xqSa/8AAf8A0lKT+bXkfN3xK+NV1Z+I5LnxDq/xe1vVbg\
+2r6br/AMSviXH8GV1Xw69q40+7j8G/s96aL6znlaJpITrHg3Tr1IjJa6teWt7bW+mk+HvxA17x5rWoW\
+nheC5v7ux00XNza2f7af7U/hS8W3e5hi89J4vANtPe2yyGNZEUPEjSxGUq5h3dz438FeJtM+IMfxD+H\
+OtWNj4huNJkt9W8PeKF1G+8Ja692ml6dJen7LOZvD98NO8PaL5klmh+1N4fsY5BGguXnwrW50O3+IHh\
+/x18cPiT8M/C/jfw1pU66B4d0nUtI8Mac+n6sviTS57vUb3xZePqfiOBre7PkbDZW1pcQXAjilaSeST\
+e0eVK39ei/r8jynVqus5Od5X1uk3bTXmbb6/p5non2L4q/9C94j/8AFhX7Xf8A8ydRvbfFNeD4e8Sc+\
+n/BQn9ro9vfwn710X/C6/g1/wBFb+GX/he+Ff8A5a1u6F418G+MGvP+ES8W+GfFP9nfZ/7Q/wCEc17S\
+tb+w/axN9k+2f2Zdy/ZvN+y3Pl79u/7O+3OxsRyr+X8/Lz/r7jpjVm3/ABO/SP8AkYtn8afjFokkU/i\
+34i/tGaLcWKoUur34a/AH4tfDvWtetmV10uTSvgp8LofGOo+D7mSK5Y3Mlp4UuZrGIxvfaFqlzaRD2f\
+wX+0Z8TvEg1MeEfFH7MP7QP2M2R1D/AIQnxZ4g+F//AAiX2j7X9k/tP+zL34lf259v8i58nf8A2L9l/\
+sWXb/aP2hvsHGv1H0/qa4nxJ4N8K+K5NPn8Q6Dpup32jmeXQtWlt1j13w5d3DQO+o+GNft9l74Z1ZZr\
+OzlivLCe3uoZrKCaKZJYYnSXTg+iXy/ys/xNoYzEQ/5eyl6tv87r8P8AM+tbb9pK5sDGnjf4LfFbw3a\
+2yeTrnibQLfwn8SfC9tepGYjLoWl+BvFF14w8R6JPqXlxWk6+D7e8EN1Heapp2kwJeGz+RfA3gf4FeI\
+PO0PwD4o8e+CvsNrPfJ8L/AId/G745/BGy8M2fnRLc3kHwU8H+O9Cg8G21zfXkd3NImjWa39xrP9pSG\
+eXUDcz6Oh+M/FPw3JttZfxZ8SfBTlFhu1XTtY8deBoLcrGRcAfZrv4h+E49JhLF/wDiaeMftlqcjxPL\
+qo/seuE8H+ItAsr/AFS40XUNFuZ9Hv8Aw9rX2+3SGPUtWaCx8Nav4Z163nVrLWZbjVLZNNvLGeO686+\
+i+xyiWRCZVNK/T8v8zSpjKlSMW2pct91Zr4eq0t12/wCB9rfATwhofgzwrq9hoianIb/xPe6nquq+IP\
+EHiDxf4n13Um0rRNPTUfEfi7xbql9qviO+j0rTtLsYJr68uJLfT9IstPgaOys7WCL3GvgT4dah8VPA1\
+jdT+BtfsPGOhrqEyz+APihqerFjIYIgs/h74sWllqGsaFI1xeTXN4NZsPFiXKaZaadpiaBCZbmvrnwB\
+8T/CPxHt75NCv0t/EWhJZJ4x8D6nPYQ+NfAt/fm7W107xdodpeznTnmbT75rK6jkm03VrW3Go6Ne6jp\
+k1tezYVItSb3R6+ExFOrThFe7NLZ9fNdH+fVpHX/CHx/P+z94o8D/AArv5PtHwH8f+I7bwR8O3uJUtk\
++AXjHUNP1G68MeBDqV46Wy/A/XdR06HQ/CtjLMl74Z8VeIdC8GaBDqfhzxFoGkeA/0Tr83PGHhLw/4+\
+8JeKfAvi3T/AO1vCvjTw5rfhLxNpf2u9sP7S8P+I9MutH1nT/t2mXMNzZ+dp15cx+bbzRTx+ZvikjkC\
+sPpf9kr4ieIvih+zz8N/EXjbUZNa+IWj2eu/DT4o6+bHTNNtPEfxa+DPivXfhB8WPE2i2WkW8FvB4Y1\
+L4jeBvE99pOy0sGbTNQtHl03TJmksLbjrQStNaX0f9fmfSZZiJScsNN83KuaHlFNJx9E2uXfRtaJJH0\
+ZRRRXOewFFFFABRRRQAV+fH7V7jQP2k/2SPFV5mXT/ABN4Z/aS+BdhDbfPew+LfGWl/Cr42aXqN3HKU\
+SPw5H4V/Zr8dW9xMkklyuoatpMUdnLbT3l3YfoPX51f8FIJhpPwu8HeMrIkeLPh/wCPfB/jHwBFbk2m\
+p6741s/H/gTTdJ+HGmeIUGfBw8b2+rX/AIEv9XfNpY6R8TdRk1SK50g39pPrQ/ixXe6+9M8/NNMBXk3\
+ZQ5JfKM4yf5HlHxX+JGrwa6/wt8B3X9m+MZ9B0zxH4m8VzWttcxeAPB+vX+t6TpGp6PYalBJB4i8ban\
+f+GfEkGkwyw3GmaadEutV12O4jg03QPEvyN4W02z0mxFhYRNFbxGWQmSae6uLi4upZbu9vr69u5Xm1D\
+Uri8nuJ7m5nkkuLm4uJJ55JJpHdvSfhhcaTqvhmTxTp3iAeLb7xprviDxT4n8SyabfaNe3/AIrvtVub\
+XWtJvdE1mSTUvDY0KaxTw5a6Jq00+qeHNP8AB9n4dv5WuNJfH5g6X8Wfif46kvzB8d/ht8DPFdpfXdh\
+e/DbxFYeDLXT/AAbbxSG7sYviF4v8f6it9L40ktJLu1ubHw9pGqJp91plvba1b6DeT3UNr69KKSaXS2\
+v9f18z87x1eVSUZNNp3UUraK680rvd6627JW/VDwP/AMgq6/7CU3/pNaV8kQ/ES28eeOPFPjzStM17x\
+VYQTXPgjwCukWUa6TF4N8PahLBr3ijTdf12+g0e6m13xlDdStNpOqSjVNC0PwrLNZpc6fd+TL+znef8\
+LmsvG8XjbUdN+J/hfwR4ou/CGn69p+q2x+HvjLV9Iv8AVLHUrzUvh7Y6bFZ397LoWn+BNeSW6vfEmkJ\
+L4qtpdBn0u7tdQsrfyH4fyeLfF/gTwJ8KfCN1deGrbwr4P0Pwp8XPH1lNbm/8L6z4Wtz4V8Q/DvwdIj\
+OrePm1LRb4S6gQ1rpmnXFrqlo12+o6XIccViqGCpVcTiJ8tOmlfzb2SXVvZLTz0uZ0oVsQ6NKlHWd7f\
+JpNvokrt31+/Q6nxn8bLjwrqSeHXm0CfxrJvNr4B8Eafr3xa8ZaoEgtL6fdpNk+gDw6YNJuRegXkrG8\
+tFmltsG2KzS6B4P+Pnje0F74/wDiBefDDTr68ke58D+DbPwzf+JrS2trdFhEHxCht3i02CXW45biOCO\
+1vpl0zyLS5v5bmS6kT27wn4D8I+Bob6PwvodrpkuqXMt5rGos9xf65rl5NeX1+11r3iDU55r7XLkXWp\
+XzJJd3EzRi6ZIyqYUddXweYcVYzEPkwUfqdNdbqU303taPeyu09pHv4bJqFP3sRL6zN97qK20snZ7W1\
+STW8T5+uv2Z/hlrlrFF45fxp8R7yGWSRdW8a+PPFd7ehWmuZooI7fStTs7O1t4ftdwsSw2sYRZmHJZi\
+fKNO/ZVWzTwL4an8P/C680Pwp4l0fW9Y8cSWWp/8Jd4rsNNnm1O80i/8Lz2EsJjvbmQWM4u9dv7JbVn\
+uIdPjZbWytftiivnZ4rE1W3Vryqvf3pOVm92rt79e/XoetClTpK1OnGmtPhSW223boeYv8FPg9JLDM3\
+ws+HoeDzNip4O8PxxN5qhG86COwEdzgD5fMVth+ZNp5ouPgn8HbqF4JfhZ8PVSTbua38H6BZzDa6uNl\
+xaWCSR8qM7WGQSpypIPp1FY80v5np5ss8iu/g1oajTD4a8V/ErwS2kXdvPZR+HPH2v3Wkx2lrFLFBoq\
++FfFlxqejw6EgeHZax6ekca2kUMey3DQv51fWX7T/hLUCbO+8HfFnQ7p9NDzf2PZ+FPEWkxJcGPVHst\
+Fl1+zstRkNvciSJZtXjEh08oXti4L/UVFenhM7zPBuPs8TKcI292fvxsulnqtNNGnayvorcVfL8JiL8\
+9JKT+1H3Xfvdb97O6vfTV38J8O+PPEWsPqNvJ4XtpdQ8PyW9r4i0SLUrrR/GFpcXMRNvcJ4a8RaXBYt\
+YzSpMUuLfXr3TJUs7oadquqm33S/HXwq05fhP4s121+KH7PGkfEvUvGME+l2l5ra+D9XttW+Jrzy6p4\
+VhTxN4+1JbDwumpHUfEFlq11DJcyahe2uhQ2Wmy6il2+q/oP4w8CaH4zOj3V+19puueG72XUfDPifRb\
+iOz1/w/eXEBtrtrG5lgliuLK4tj5d3ZXcNzYXiIi3drMI49vzL8R9c0+DUNH+Hnjq+8M2nii+8f8Awy\
+1l7S8u7Ow0HxL4U0zx9p/inV/EVqms3jJp+lnQPB/icXNleztLBd2H9mxy6gbzSbnVfvMmz+jmj+r1Y\
+Khimr8qbtJLVuL8lq43va7vZHzWYZZVwfLXpz9pRi9W0vdvZa+r0T2u9VqkfQ37IXgLx74H8G+Iv+Eq\
+06x8GeHNa8SatfeBvhZa6xc+LLrwNpL+IPEV1I+r+L7nU7lNS1G6tr7S7Zbex8qxitfDVtfyIdZ1TWX\
+b6X1rRbu6u9M8Q+HtT/4Rzxt4c+1t4b8SLaG/igivzatqmga/pa3UH/CR+CdR+wWC6npjTwGY2FrfWN\
+1put6bpGr6d8NeOtW1PwtqOj2fhT4qah+zd8L9X8GW2uxfGKxi8A+L/hdd+LNQ8SajFp/hzU9G8eTXW\
+n/CzRk8O6XfTw6hZWVhp3iTV/HFlDc6zBqtlY6X4ly/A3xV8BXfjDwz4c/Z8+KfjXxr8QG8TeFbfx/8\
+Pf8AhZ3jX9ov4aXng+TxHpdl4x8RX/xP8a3OtW3hO103wFe+LNY0GXTNf8M3Or6hbWWn6zpeqajBH4b\
+h9uSbk33/AK18v6e5lSkoQgl7vKlbVavf3dtVvbT+7e2n64/Dj4j2njy0v7O8sP8AhHPG3hz7HD4w8H\
+zXgv5dJlvxdDTdY0fUjawf8JH4J1H7BfvpOrJbwC5FhdWd5a6brem6xo+m+zfsP/a/s/7T/wBl+0f8I\
+R/w1H4g/wCFfeR5n/CK/ZP+FO/BT/hZ3/CG+X/on2f/AIaE/wCFy/299i+X/hM/+En/ALQ/4nf9q1+d\
+nxZ19vh1osHxn01Wm8TfCqPU9V0XQ4XMNx8R49csX0Ob4N77d0uL248S6rc6Db6PaRGYHxbp3hm/Ona\
+vJp0Ol3f6d/sHWEVt+yd8I9XXVdN1y78f2vi34wa1quhx6rB4bvfE/wAbfH3ir4veK5fCVtr+m2mo2f\
+gz/hJfG+rLo0Gp26anBpaWkOpNLfJcSvw4mKjC62k7enX+vU+rySs6+KtLSdGEm3/Mm4xX5u9usU9Lp\
+H13RRRXCfWBRRRQAUUUUAFflt+39fzaj8Z/2UfBk6xppdjov7QvxiiuIgy37eJvBFh8KvhVpVjJK7tG\
+dCk8PftAeMpriIRC4e90zTJI7qKCG6tr39Sa/Ij/AIKy6m3hbTv2VfFmk6zYeGvFV18dLj4U6TrBsrq\
+51q6tPjT4P1bwP/ZGniDSbiDUtMs/F1x4I8XX2lapPY6VqP8AwqW333B1W20iGTbD/wAaC73/ACZ5Wd\
+3/ALMxVunI/uqQb/A+GNbn8QeGfFniiP4exaxL8KodYa4+Onh/w5Hev4q0bxBrtnZ+J9R1n4JafpoN2\
+mrXlhrlnqXjOyskE1/DrB1TwUr/ABBuNaTVrt18Pvg348e11xvBHwy8Z6OdNt4fCesN4a8K+ItMPhIl\
+7zQovDuoGymiPh02t55tots/2by7rfCNr5PuWh6Pp2gadBpWlW/2aytvNZVaae6uJ7i6nmu72+vr27l\
+kn1LU7m+nuLi6uriSW5urm6lubmWWeWSRvjDXfD/jT4ca9421zTte+KKjU/H2u+L5Phb8OfhtF4h8I+\
+IfCWtu8t1c+B/E0vgHW08L/FG5ulOo3kGp3mmaNqWurqkN1p+lx68vjoetB66aW/q/9bH5/XptR5rXv\
+e+1lr0vb/g7+R9L3njTWNCm0L4X/CPwT4Y8QeI/D/gjwrr+qaTr/ie7+G3gvwj4L1Q6v4f8JQQanovg\
+jXZ7nU72+8KeIIrCwstJe1t7TwrfSajfaY7aPbax+fXwN8XeP/g34E0r4gfFfSPDcngH4sXngfxHrXi\
+Xwx4xgudQ0Txz8W/FPkyePfGmi+J/DGg2mgeGJrHxR4NsdTj0rUb5dMl8MJeWulzxahqd3ae9aX4l8H\
+/GxvDGmeKP+E78E/E3w3pGvJF4c1LU/GnwO+Ndj4Jj8UXem2moX/8AwiWr6Tfar4a1CytPCL6tc6PcX\
+PhK+13TFW2d59Mt4rPyz4DeAtPun0DRviLc6x448SfDH+x4PDFl4zuLS90fwtpOjwTxeCdS0rwdpmh6\
+fo+keNNMvNJ1uyOrTWM/ieCexu431YafPa2yfP8AEVOTwkHNKeGg3Kqve53a1uWzUVq2uaXwtpcsk2j\
+rwFWKrRjG8a0klB+7y62upddFb3VvZu8Wkz7lo69K8m/4QnXPCeJvhrr32CwjIP8Awr/xS93rHgmSJP\
+m+xeHL3e2pfDvMNtYWVmllLeeHtItEke28KXE7bqlHxW0rRv8AR/iLpWqfDu7g4u9V1m2uL34fBF/cL\
+qUPxMsLZtI03SrnUFmt7GPWptF1e4ZrdZtItZb20hm/O/YOetB+2XZL316w3frFyS6s+l9ry/xV7Pzf\
+w/KW3ydm+iPVKKytE13RPEumW2t+HNZ0rX9GvfO+x6vouo2mq6Zd/ZriW0uPst/YzSRT+XdW88T7HO2\
+SF0bDKwGrWEk4txaaa0aas0+qa8maJppNO6e1uwUUV5Dqnxm0Ealf6H4H0LxN8W9d0a9urDxBp/w5i0\
+C50/w5eafcSWeq6ZrnjPxX4h0nw9p/ia0vPsiXOgtq58QRJqUF2dKNiZLqOoU51G1CN7bvZLzbdkl5t\
+pClKMfidr7d36Ld/I9eorzTSPi34J1DS9a1LV9Qk8CzeFjpyeLtK+IUS+D7/wAMS6rcSWFg99Nq0iWe\
+paNPq9tqFjZazpl1f6Fql3pV3FpOqX4t5GWEfEhvEY8r4W6J/wALAB/5mk6l/YXwygx83/I9/YLv/hI\
+9xg1C3/4pyw177HqFl9j1f+y9/nLaw9d3/duKjo5P3YrRNXk7RV01a71urbol1aat76beyWrfpFXb2d\
+9NLO+zPR76+sdLsbzU9TvLXTtN061uL7UNQvriG0sbGxtIXuLu8vLu4dY7W1igjkeSR2VERCzEKCa+e\
+/F1h4t1TxL8MvjbpjWXhi88EeOfD3hjwNofivw/qeoTahofxo8RaD8KPEXiXxbo0WtabcaRqfkeJdOv\
+dJ03zoLqyt9KlXWNt9qsumeH2/EWTVfANh4e8beOr4fEW6Xxdo1gLOa91P4c/CTwTNMt3LpnibUNG0q\
+w1yS4gXW9O8NCO58SXOtR6drNxBf6VcaLuES+I65+0LF49+KPwl+EMWp6brt9pXxv+EfiTVfFngHUbm\
+08G+JNGsdbu7qbR9T0ubU52iuLLxDceB5o4IdQ1q1uJ7N7maSxuLX7HF6eVQlDMMB9Xftakq0E5JOyh\
+zL2iinaXwc3O5JWV0k1eT5sW+bC4mVVezhGEmk2r81vcbtdX57cqTettU9F9uR+FdT8ISHT9X8Q/wDC\
+R32o6l4g8Sz3MOk2+iabZTeKfFOu6/c6bo+mpc3M8GmR3moXDL9svb65Mk8hNyIfJt4LuoQ6ISdQ8Qa\
+0vhfTtBtdS8Qy+LTqNpo58JDSNJv7ufxGdW1AG2sba2s1umuvtayWE1m1xbajDcafPdW8vinx8/af8E\
++FvFMHhrwPpuu/Gb4hSLq+gWXg74aWU2vxw+JvDQ1mfXdE8Q+I7GGa00fUdMmisf7Z06E33iDTLbV7e\
++fQ5raRXPnPwy8eX/j34heG2+O2lfEHwLdC/tNY8IfDfxX8Nr7wb8M11e1v7OHQdRn8Raml3deOfFOk\
+eLdb0CxtL/U7rQ9Hu9X1jw3d6Z4SsfEyafNF+ra8t+tj5H3eeMI7JpdWlqrXf/BufQfg3Vtf+JPjvSv\
+E3xE0mbwtceDdI11vhf4TvrG+08+LtN1ttM03Uvjrd6FrTyS+FfEL6aP7LsNAkC+IfBumeM9VtPEV1M\
+/i2CxsP1e/4J0+IEm+BXiX4bSG6bUPgd8aPih8PbkkRjRLXQvEur2/xy+GWg+EwJd8PhzRvg58Yfh1o\
+a2zW9pFYXXhq706xhl0y0sry6/Pvxv4fvNc0mG50SW1tvFvhu6m8QeC7y/eUaXb+JY9J1TSbeLWYooZ\
+TPoV1p+r6lY3ypG1wlpqk0ti9vqEdpdQffX/AATX0j7V+zi/xins9R02+/aV+IHij43HTb2bTZILbwr\
+cWmifDL4R3dhbadcXB01tQ+B/wz+GWq6hbXF3dXEWta7qYP2KIxaXYcOKt7JPbVff/wANc+oyCM445x\
+jqlTld91eP483L8vnb7/ooorzj7MKKKKACiiigAr8xv26vDOifE34zfs//AAk8cWX9t/D3X/gv+1v4n\
+1bw/wDabvTfteuQL8Bfg9Fff2rpFxb30GPhz8dfipp3lRXKQn/hKftZjN9Y6ddWf6c18Qft46PNB8Of\
+hl8WUMs1l8Afjl4O+I3iGxW3cWreDfF3h7xl+z9448T61rQYp4W8M+E/B/xt1zxrquozwzWsem/DW7g\
+vJNPtbibV9O0ou1SPnp96scWYw9pg60bXUeWT/wAMJxlL10i9PuTeh+bXhy48ReG9a1D4Z/EO6efxlp\
+L65qPhzW54LO3h+JPw3tdca08P+M9Pn0+1trS+8SWuk6h4bs/GFraWenLpfiG8MsOlWXh7WfC91qneV\
+7N8Qvh7oPxJ0FNF1p77T7vT76LW/DHifRJba18T+C/E9rbXdpYeJ/DF/d2k8Vtqcdrf39vNDcQXOn6l\
+p+p3ukavZajo2o6hp918v2viLWfDniK1+HnxMsH0nxnO88GieItO0PXbX4b/ABJht7O61GDUPBfiG7W\
+4tNM8ST6TpusXd14PvNSm8Q6Wvh3VZohrPh6ytfFOqelGV/U+JrUXSfeD2fbyf6Pr6nn/AMXfBng/xz\
+f6bpHjbwp4a8YaTBFaahBpninQtL8QadDfxPq1tFfRWWrWs0cd4tvd3UayhQ6pcyIGCuwPwv8AELwxr\
+nwp+LGiQfDb4ma5oLXdnZa3p9l8Qom+Jui20usalqQ8TaZPrOs61ZeI9TGs3mkWgKah4g1KNZ9WnNpb\
+211Ho1zpXuX7WHwt1/xj4/8AhR4hvfDWrfFf4aWN4LDxT8J9K8V6d4JmgCWviOO78ZW97eX1iPEepg6\
+3ootoJNV0/wCx/wBgSW8Ynh16/udM+ZfjD8INe+JPxw8EyfCn4QWnwW0qx8P+HJ73QNW/4U9o9140m0\
+fxpdal4htPDHg7w54yuNI8b6vH4fkivLm1v7+zhey0CSDUJIkm0/z9alGnXoypVLONSLWqTSvpqnv1u\
+mrNNra55FaU4VlOEffhKNkrpy2ejS06Ws7p9LpD9c/bB+PPhrxFo/h3xZ8OvA2gTzWunafbQ6DF4r+I\
+HiH4k6/Ne3WkyX3w30SK90fT7G2l1H+zXOjaxrtvqdnaXysk+p3UkFpL9X+Evj8//CP6TP8AEv4bfFr\
+wT4nvLOO7fS7H4T+OvHFveWEpIs9YE/wu07xJb+G5rhUcy6LqV9Hq+myxvBcwywfZL+9+er34f/EC21\
+Gfw1rfhfTPGFjfpp1tqfwu1jxR4e8deL/BdraR/b7e68a+I7Lw5Z6FLLcw27X9lDfywXFzHeWIinkuI\
+rpqtynWfh5rU2l6N8R/E/wm1W2TQmPgL4gRQax4K+xaZql/EbXQ9C8WFWt/DckEOo6ap8I6zZaYsdhb\
+mymaO3gZvh8fkKp35MPGEVreLny/KTVTlXlKEv8AEra+5h8zcklOpJy0VpKKd9N4+42/SSa6xex7rL4\
+r/Y78eeJLeU+Mv2ePEHjrxDfadp2natpfi74fSfEC81mT7NpehjQNf0nU11eDxEjpYxadNZXCXsEsMH\
+2OSOWOIr6d/wAKc8NRfvdP8Q/FPTr+L95Zah/wuP4p6x9hu0+a2vP7I8TeLr7TdU8qYI/2bULG8sZ9n\
+lXdrcQNJC/h0vxA+KUmh3Wj+Mfhd8PviNpV9NdaRr8Hh/xRcaVJ4i8L6pqElhdLF4C8a+Hp9Pab/hHL\
+km50+88TNbXTwzRC7VJkRePn0L4B2dldXs/7DVm8Nlaz3c62vwx/Zt1C7eK2jaWVbTT7HxzJcajdFEI\
+jgt4pZ5mwkUbuyqfIeGxUUkqlWEIrRKpComtkuVzptaW9xxv0aVrHYq2Hbbcacpt6twlBp6X15Zp7/E\
+pW7N7n1J/wrTxT/wBF1+K3/gp+CP8A85uvl4fs6eI/Dus+JLPwD8VvEFjoGoeJvE/iEab431743+Irv\
+StR8ReIdT1nVLPR77wH8fPCUJ0Vr68mnH9oWmo6rLdXl3cXur3hnjS34X/hKP2YT0/YL8Yn/u1fwJ/8\
+crpJ/AvwVL6jJa/sgeEvtQ+0SWlhe+BvgPbwLcEzNBZ3V3Y67dLbRiQxpJJClwEALIku0K3dl9DEKVV\
+ShUpJpaOhTo3aelvejzNX8+W/Tmd+XGVaSjCSlCo0+lWVS17abPlv8r26207Lwb4M+BfwR8XRfEH4pe\
+KPgj4P8c3VhqGmeEbhNC+HvwV8L6XaTNaw+Jv+EH0W4vX1C+uprOLQFv7jVNa124tWu549Nl0nT9Vut\
+Pm9pk+PfhTUFaHwb4a+J3xAvpzu0ZPDXw18W6f4d8SWoPmnU9A+J3jbTdI8H32ivp6y3drfHxClnqUC\
+R/2XPezXNnDc+B6FBq3w6XUj8L/hx8AvhLZahLbXfjHxBZWV5dwPpei2GsyWSS6DoPhzwwuoSpd3rML\
+i61WOKyt5blkhmeYhOS8S+NvD3iy8TTPH/jvTPiLd3USzW/g3SJtL8OfC5I1K+YbjTdS15tN1SfGn21\
+2sfinXNTa2vrRbjR1sZLmG2Z1csqYvFtTUpyioqKUlJ8qS2pwTSXM25J1oN+9K6cldUcbCjhouLUU7t\
+txaV79ZN3bsrJqnLorNJnS337XHxA8Ralead8LPgpa/2UNOjt4viH8SviJ4ZtfCVn4k1BL6PThZQfDK\
+48Q2vxA0dL2PT4Jk0nX4rr7dNLpt1/ZciLdt89/Dz4V/ELxl8SLHxL4p+I8nxLs9d+J3hnUvGGnRaTF\
+p83xH0K51+58DeIru10Dw9pl1qF58FbHwdPq+kapHrGoJ4JIvr/R7SG5IW3HTamNX+IVnZSy6gt/oeo\
+fFPwf4P0vTdBs7mHw14nlvJ7W4m8PpLrd5o2sar4lMOq2smLz/AIRvRFi8P3Drqq30tlt/TP4L6Jrfh\
+/w3rGna14M0TwSE8S3Emk2Wi6D4f8NtqmlvomggatquleGfGOu2sOojUV1GzRhqDu1npFoWji4Wvqcu\
+yehl7jW9jCnVs01dylrZ6yk3a3aCS0i3eUbnmVMZVxzdP2kpUk4u9kl6JRtv3k31tZOx5x8Yvghp1wv\
+hHxV8Mtan+Evj3wanh3w74R1rQrFdT8J6X4b0HSfGWjaboF18MLu7j0O/sbXRfG/iuCwkW2gu7A6ni2\
+uVthLaTcP4W+CPjjxr418K638d/jbr/wAVbb4c6zY+NfBXhrSfCug/DTw1b+KdMlb7HrHiWy8OSSzeJ\
+7m2uZLGexDXFuls9rNHItxbX13byfS3xL1M2Gn6DbW+n3usarrPiKPTdG0bTn0+K91S9i0fWdYuIILj\
+V7+1tLcx6RpWp3LNcXMKFLFo42ed4oZPGvBXxH1Txf4zuPAfgXRDZ+LrzVL/AMFDxL4luNA1n4b+FvE\
+ulwahqvinStb8QeC/Flza678QtG0bQr28l8B2mpW3im7Sa1muItF8PHVfFOi+wn7j1V16Xt+ZnON8RG\
+KTabWivyt+7ul7t9t/LyPW/EGg/wDC4vFR+BcS+b4VudDttb+PjmX7BOvwl8XWfjbQNE8I6JfkNKNd8\
+U+JvDOpWNxLaQl7Hw5oXiOZNU0DXp/C11dfph+wdqjQeBPjN8NnjaY/CP8AaW+LOljW2lIOvr8Zm0H9\
+rFJP7OKH+yV0tP2iV8PBPtFz9rHg0aoGtBqH9m2Pzf4U8KeC/gt4L1eWXV0s9Ns01Lxl8QfiD4y1LTb\
+fUdc1G302FvEHjvx34gaG1tIHTSdKtkJSOz0vSNL0e00vS7TTdE02wsLT67/Yr8C6z4W+C7eMPF+iaj\
+oHj345+MvE3xu8XaZrlnqWj+JtMsvF0lppfwo8MeM/DN/BCnhTx34e+AXhz4SeGde0+1hEMWseC76SS\
+51O8mutX1DgxEk4W6XVvXq/68j6zJqMqeIuvjcXzvpy6Wj/AOBWa72lZ20f1vRRRXEfUBRRRQAUUUUA\
+FZWvaDofinQ9Z8MeJ9G0rxH4a8R6VqOg+IfD2vadZ6voevaHq9nNp+raNrOk6hDJb6ppV1YXFxBcW88\
+bwzwzvFKjIzKdWigGk001dM/Ky68MeIvgZ4rh+FPjm+1HVtC13WvE8vwM+ImpXt9qcHi3wv8Aa9Z8Sa\
+Z8J9e1rV7i4vf+Fu+E/BsRs3/ta9v9R8Z6B4Sfxrb6nqeox+N9O8Jz+LvCPh3x34d1Lwp4r01NV0PVU\
+t/tNt9ovLG6gurG8t9S0rVdK1XTbiG70LX7HVrOxvdO1Gynt7/Tb/T7a+sbm3vLeGaP9HfHvgLwj8T/\
+AAjrPgbxzo0Wu+GdditlvbJrm+0+6t7rT7611bRta0XWdJuoL7w54m03W7DTtR0rVdOubXU9J1PS7TU\
+tNu7W+tbe4j/M/wAet4p/ZwmubT43XEs/wrsJYoNF/aj1O58H6H4HuLa/d4/D2ifGi2tdQtG+GfxId7\
+e5s7nVU0q08B61fHS20vUtD1zxTp3w/wBM66dTmsnpNfj6efl93l85jcE8PeUI82Hflfk8pf3e0n00l\
+rZy+Mfih8I/ir8P7rRI/h14r0v4leGp5L+PT/Cfxj1nUdD8ReGIw9okMNh8XfDfhjVbnxP4ftLCDTba\
+C017QdR8RXU91d6nqvjW/k8uzbxHwp8fvgV4ptdVg+It7ofhnw6yf2RrJ+J6+G7j4bvrsM+l65p/hxf\
+ihZajqXgbxN4nbTWsdTi0zTfEOoX8MMUkk1tBPYX0Vp94fHn4I2/xdf4d6wtj4R13Uvhl4o1LxNbeDf\
+iPp+qa78O/HVlqfhbWvD9/4V8RaRBfG00u8lnv9NnsPEM+k67c6BPpzT2ulXsVxeWV3m6P8N/iV4t+N\
+vh74xfEnQ/hr8P5vAvhW78PaDb/AAu8ZeNPF3inxpHr39uR6zoXxH8U6z4S8NWWofDa0a60fUdN0RtD\
+vbqHX9PTVYNZsYkutP1LsjUtCzd7f56et+/Q+dq4JzrtwXLGTSWjkmmlzPoo21tFv3ulj5j8WeDtf1m\
+08N3vwK1nwrp/gG48GaguiWPgiLwtZaYNX1+a31bwv4qgvZvD+paZrHgmQ64Ly+t7L+zb57Ke41HT59\
+ZuZINPP0DFov8AwkXhOw0f4haT4Z126vNM0v8A4SjSlsP7T8K3Ws262t1efYbHXInafTE1eAyWv2hTK\
+qwxO+JVyPQdb/Za/Z38Q6hq+vzfB/wPofi/W9SvNX1H4heBtIj+HHxQk1bUrt73V9Utvil8P20zxFp+\
+o30s92moT2+pxS6hBqN1a3rT213cxS81N+yrY2bCLwN8cf2gfh7pLKHuNFtvGPhf4px3OoklZtUPiD9\
+orwP411uzd7ZbSL7Ha6rb6VGLITwafFd3F9c3Z7VNK+jQ/wCz6tOU5xtOMtGk35bJqyVt9fRHiuo/s2\
+/CG7l1m70rw/feDtQ1q1S3mvPA3iPxF4RhtJYLR7SyvbHQtG1OPS47mDe0qK9jJA87yS3EMzTTeZRH7\
+PdoMY+KHxMGOn7v4Y//ADtK9df4P/tOWaPdxfF34D+I5bVWuI/D0nwK+IPgtNdeAGVNGfxiv7Quvnwm\
+l0yiA6mNC1o2An+1DSdR8r7HNQ/4Rn9rT/olv7Ov/iSHxL/+hPrOVOhUd504TfeUYt/irkPD1I2/dSh\
+/hfp/I/Tc82T4AQA7R8UviYAc5xF8L89COv8AwrPpgnPrXwBquq+B/DvxD+J/gH9pj41/FT4St4f8VL\
+P8OYvDGl2GlyeLPBNxNrP9j+K7rxT4T8K6k+sXFzYva/abZLfTbO1uIChjmvkurTSf1JHhr9rQEH/hV\
+v7OvH/VyPxL/wDoTq8e8Q6V+09D4n1OG4+GfwGW5H2QyJD+0D8QZYF3WFsybJn/AGYkZ/kKk5jXBJAy\
+BuN0qWHjJuNGEW1vGMU+nVI5sTRqcsZWno9pc7TuuqbW2613PmP9mnwV4W+IPjbxde3WnXvxz+EmhT6\
+lP8Mfin47sfGNjKwe00TT5vDt14d8V6dbaN48iknudft/7Rt4pJrPUPANzc6hb2SapoOPo74j/s86Br\
+OraVr2ieFdEaw8OaDBpfh/QvCVxJ8NvFXg++g1jXPENx4r8B+I9FkSxv8AX/tupRPZ6Tq9rDpw1CNb0\
+6rp6y363vo/gH4f/tN+KNLv5P7V+BHwoistTlRT9i+IHx/k1+Se3tjKGT7V8NB4RS0WOLa27WzqJ1Ng\
+V0v7CDqPp9r+y/qOpmJviB8fvjJ4psrtBP4h8JeGbjwX8KfCN1fuhnMHhzWfh54Qs/HPhbw/bar5U1l\
+br44ur429nFY6xqutW8l+L63OMJPlfKvJeS16K5dHBTnRinSupapuyW9+7lZed+6vofGVr8H7Cwubbx\
+d4js/Gnh+HwhqGi+LPEXxQ+Nvjf4fJr1loXg/XtK8aXsd5f/DmaUeOtJeDwta211P4x1VIfD1rb2d3o\
+ySrbT2y+6WHxXi8dtFZ/BTwt4i+MFzeZGn+KNCsb3SPgz5BlWwm1uf446xZL4e13QrHWZYLXVbfwvc+\
+JvEdq8V6tr4c1C40zUba2+g9C/Za+AHh7VNM19vhpo/i3xVoep2WsaB43+KV5rXxj+IHh290y4hvdKX\
+w54/+LOqa1rXh6wtNRg+12dpZX0FpaXtzcXttDFd3VzNL7s/3j+H8hUSquXTY7KOW8l+adk0npq9Ntb\
+L8Yt9L2SPjWX9lM/FKxI/aQ8Sy+KrCeK8Nv8LPh1qGv+BPh/oB1XS7rS7qPUfFukX1r4o+Iuspo2u+K\
+dFu7ua/0Xw3rel6osk/gTT71fMHp3gf9mf4NfDrWPCWv+G/Duuzal8PvD194W+Hx8V/ET4k/ECx+H+g\
+alZabpl9p/gPSPH3i7U7TwWsmkaRp9k0mmQWsv2GA2IkFpJJC/tOr6vpPh7SdU1/X9U07Q9C0PTr3V9\
+a1rV72203SdI0nTbaW91HVNU1G9lSHT9Ot7OCaWeeV0iiihaSRlRSRV+HvgDxx+0f9h1PTpf+EM/Zt1\
+bMr/EXS/Emr6V8T/jDpFt5ZktvhTZ6bpUf/CF/CnWvtKx23xATWI9c1DT9Kv7jwXpNpZa14T+JkGUqj\
+SblJqP9dP0O6jhITnGFKip1XZ3tdqzXvOTu0k7a9Ha2tkZvhTwMn7Q3xVuPhzeQRXXwg+Fkuh678d7e\
+9gmvfD/xPv8AxPoPiZvCn7PczWW2OSKE/wDCM+LfGtjd3cQl8P3nhXQNR0TX/DPxD1RtP/U2uQ8BeAv\
+CPww8I6N4G8DaNFoXhnQorlbKyW5vtQuri61C+utW1nWta1nVrqe+8R+JtS1u/wBR1HVdV1G5utT1bU\
+9Uu9S1K7ur66uLiTr64qk+d32S2X9d/wDgdD6jB4VYWlytqVWesmu/RK/SK0W13eVk5MKKKKzOsKKKK\
+ACiiigAooooAKKKKAPibxD+wv8AC7T0n1H4C6r4h/Zz8Qw4l0nSPAd/fah8DUWG3aRfD97+zfrWoN4S\
+0Lwpfa7FY3+tyeDrLwf4q1CZb17XxZpl1q+q3d38/eJH+M/wgmNj8YPhP4m8TaUJTa6T8VP2dvCHjf4\
+x+GfEkgeeGwj1r4VeENG1Hxv8M/E15baZqeo3Nm2leIvCWi29xY6afiLq+r3UVs/6tUVrGtOO/vLz3+\
+//AIc4K2XYeo+anH2E1/Kkk/WO3q1Z+Z+Qfhf9oP4G+LvElr4G0H4teALn4hXUt9at8M7rxRpWk/FLT\
+tT0m0ub3XNB174Zavcwa/4c8TabBYaj/aml6hp1tqOlyaZdQ6ha201tOkftKdD9f6Cvujxv4E8D/Ezw\
+vqfgj4keDfCnxA8F639i/tnwh438O6R4r8L6v/ZuoWmr6d/aega9Z3Fpf/Z9VsLG6h82J/KuLKKaPbJ\
+GjL81X37Bf7K0syt4b+HGrfCixEYEvh39n74o/F79m/wbe3YZzJrWp+B/gF488N6PqvieSEwQTatc2M\
+upz2unWVnNdyWtjZwwaqvDrFr0s/8AI4p5ZiEmoVIVL9XzQt5WSqX23uu1ur8wXqPqP51PWrL+xT4xt\
+IpbrRf2yP2hLrWbaN7jSbbxt4Q/Zc1zwZcanCpksIPFuieEP2efDmrax4Ye6WJb+10vxDoWo3Fq0sNl\
+rOl3LxX0GJ/wzD+1p/0ct+zr/wCIg/Ev/wCjXq/a0/57fJ/5HK8FjEklhnL0lT8u80TV8P8AjrwR45v\
+Pi/8AEPUvGfww+M3xS8Cal/wid/8AC27+DHxk8MfDe18N2S+GLHSPF/h/xXpEnxP8C6lf6+3iXR5r+O\
+6ub/xFYtY6zaw2A0i4h1KK9+2v+GYf2tP+jlv2df8AxEH4l/8A0a9H/DMP7Wn/AEct+zr/AOIg/Ev/A\
+OjXqo1qcXdTX3S/RGNXLcXVUYywsrJ3+Ki09GtU5tNa323SZ85/s9+DviF4M0bx9H4gk1+18Kax4uut\
+b+Fvgj4jatY+Jfif4L0e6sLX+19F8dfELQvFGtWfiDT38TJqDaJHHcanfafootBqOr395O2n6R9FVpW\
+P7IXxq13zh8RP2s9R0X7N5f8AZH/DOfwS8A/DX7T52/8AtD/hMf8AhfeofFr+2tnk2P8AZ/8AZP8Awj\
+/2bzb77f8A2r59n/Zva6d+wb+zqWtp/HOl/ED4yzvGH8Raf8afi/8AFD4i/D3xrqskJN1rPij4E614r\
+Pw8kkbVG/tG1sLLwlZaNo2oQ21xoGmaSbDT1tJlXg23fmb7L/OxtRyzFKEYKmqaj/PJbPtyc+3RaJKy\
+Vj5i8bfGz4R/D3XbHwn4w+I3hDRfG2r2NtfeHvh9JrVnd/EjxbHf3l3puk2vgr4c6fJNrnjbVb/VrK6\
+sdNsdJ0+8vNSv4vsFhBcXhWA6WgW3x7+K8sMHwu+C3iLwZ4e1L5oPi7+0LZS/Dfw3Z6elwuk6rfaX8F\
+7i7T4i674rsdTllmttC8Q6B4D0vXrTQ7uW38Z6ba3WjX+pfop8N/hN8K/g5od14Y+EPw0+H/wr8NX2q\
+z69feHvhv4N8OeB9DvNcurOx0+51m60nwxptrb3GqyWGl6ZBJcPGZnh06CJnKQxqvoFZSr/AMsbeb1/\
+D/hzvp5W7p1q11a3LBW+Tk7tr0jF9muvyD8Pf2N/AOiatovjf4uarqPx++JWiajp3iDRdX8e2lnD8Pf\
+APiXTbmy1fTtT+Enwcst2ieDdR0rX4tSl0HxFqCa98QtOsdZm0q78dapaACvr6iisJSlJ3k7s9KlRpU\
+Y8lKChHy3fm3u35tthRRRSNQooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK\
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK\
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA\
+KKKKAP//Z'
+	$end 'DesignInfo'
+$end 'ProjectPreview'
