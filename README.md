@@ -11,7 +11,7 @@ Reason: We want a coaxial cable covered with solder to pass through.
 Reason: To make more space for the coax-to-cpw transition structure
 
 3. Adding a "V" shaped groove for indium seal
-3. Adding a place for flux bias
+3. Adding a place for solonoid
 4. Think about a good way to mount the sample box
 5. Adding holes for thermalization
 6. Adding a light-tight but not air-tight structure
