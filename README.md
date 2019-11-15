@@ -1,4 +1,4 @@
-# Sample Box
+# Sample Box v1.0
 
 ## Features to modify
 
