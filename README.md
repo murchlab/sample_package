@@ -1,6 +1,6 @@
-# Sample Box v1.0
+# Sample Package v1.0
 
-## Features to modify
+## Features to modify (Done)
 
 1. Making the coaxial holes larger
 
