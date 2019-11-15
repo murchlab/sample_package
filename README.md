@@ -35,7 +35,7 @@
 
 ## Guidelines for CNC machining (Bridgeport EZTrak)
 
-### The workflow
+### Workflow
     
 1. Design the part using SolidWorks.
 
@@ -109,8 +109,13 @@ We do both roughing & finishing procedures. But the finishing procedure is manua
 
 We do centering before drilling. G-code file for both procedures are currently created manualy. Spindle and feedrate parameters are the same as used in the milling procedures.
 
+1. Center Drill
+
         Center Drill Depth = 0.015 in
 
+2. Drill
+
+        Add tip length: True
 
 ## Features to modify (Done)
 
