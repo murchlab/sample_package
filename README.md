@@ -95,6 +95,16 @@ We do both roughing & finishing procedures. But the finishing procedure is manua
     
         Final Cut Amount = 0.01 in
         
+5. Rest machining:
+
+    a. For roughing
+    
+        Machine: No
+        
+    b. For finishing
+    
+        Maching: From WIP (Work in Progress)
+        
 ### Drilling
 
 We do centering before drilling. G-code file for both procedures are currently created manualy. Spindle and feedrate parameters are the same as used in the milling procedures.
