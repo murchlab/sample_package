@@ -58,7 +58,7 @@ These g-code files are generated in a certain order. Particularly, I assume that
 
         tt332.txt
         
-### Top, Backside
+### Top, Bottomside
 
 1. The pocket: 3/32" End Mill
 
