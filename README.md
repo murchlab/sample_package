@@ -31,7 +31,66 @@
     #4-40 Brass socket head screw, Length = 1/4"
 
     https://www.mcmaster.com/93465a106
+    
+## Milling procedures
 
+These g-code files are generated in a certain order. Particularly, I assume that drilling procedures are performed before milling.
+
+### Top, Topside
+
+1. Center Drill
+
+        ttc.txt
+        
+2. #4-40 tapped holes: #43 Drill Bit
+
+        tt43.txt
+        
+3. #4-40 mounting holes: 3mm Drill Bit
+
+        tt3mm.txt
+        
+4. #4-40 close fit: #32 Drill Bit
+
+        tt32.txt
+        
+5. Pockets: 3/32" End Mill
+
+        tt332.txt
+        
+### Top, Backside
+
+1. The pocket: 3/32" End Mill
+
+        tb332.txt
+        
+### Bottom, Topside
+
+1. Center Drill
+
+        btc.txt
+
+2. Post pockets: #45 Drill Bit
+
+        bt45.txt
+        
+3. #4-40 tapped holes and IO holes: #43 Drill Bit
+
+        bt43.txt
+        
+4. #4-40 mounting holes: 3mm Drill Bit
+
+        bt3mm.txt
+        
+5. Pockets: 3/32" End Mill
+
+        bt332.txt
+        
+### Bottom, Bottomside
+
+1. Pockets: 3/32" End Mill
+
+        bb332.txt
 
 ## Guidelines for CNC machining (Bridgeport EZTrak)
 
