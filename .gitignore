@@ -1,3 +1,7 @@
 *.aedtresults
 *.set
 *.bak
+.DS_Store
+.idea
+__pycache__
+
