@@ -66,6 +66,8 @@ We do both roughing & finishing procedures. But the finishing procedure is manua
         XY Feedrate = 8 in/min
     
         Z Feedrate = 4 in/min
+        
+        Leadin Feedrate = 4 in/min
     
 3. Side parameters:
 
