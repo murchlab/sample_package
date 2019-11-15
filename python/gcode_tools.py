@@ -75,11 +75,15 @@ def drill_tool(path, Z, pecking=True):
         N += Delta_N
         return output, N
 
+    first_drill = True
     if pecking:
         for X, Y in XY_list:
             Z_n = 0
             next_pecking = True
-            output, N = fast_move(output, N, X, Y)
+            if first_drill:
+                first_drill = False
+            else:
+                output, N = fast_move(output, N, X, Y)
             while next_pecking:
                 Z_n -= Z_pecking
                 if Z_n < Z:
@@ -88,7 +92,10 @@ def drill_tool(path, Z, pecking=True):
                 output, N = drill(output, N, X, Y, Z_n)
     else:
         for X, Y in XY_list:
-            output, N = fast_move(output, N, X, Y)
+            if first_drill:
+                first_drill = False
+            else:
+                output, N = fast_move(output, N, X, Y)
             output, N = drill(output, N, X, Y, Z)
 
     output += 'N' + str(N) + " G80 Z" + gstr(Z_final) + "\n"
