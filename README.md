@@ -1,4 +1,4 @@
-# Sample Package v1.1
+# Sample Package v1.2
 
 ## Purchase list
 
@@ -34,63 +34,86 @@
     
 ## Milling procedures
 
-These g-code files are generated in a certain order. Particularly, I assume that drilling procedures are performed before milling.
+These g-code files are generated in a certain order. Particularly, I assume that the milling procedures are performed before the drilling ones.
+
+#### The way I name the files:
+
+1. The first letter:
+
+        x: Stands for the top part
+        y: Stands for the bottom part
+        
+2. The second letter:
+
+        t: Stands for the topside of the part
+        b: Stands for the bottomside of the part
+        
+3. Letter "c" indicates that this file is for center drills
+
+4. The numbers indicats the tool to use.
 
 ### Top, Topside
 
-1. Center Drill
+1. Pockets: 3/32" End Mill
 
-        ttc.txt
-        
-2. #4-40 tapped holes: #43 Drill Bit
+        xt332.txt
 
-        tt43.txt
-        
-3. #4-40 mounting holes: 3mm Drill Bit
+2. Center Drills
 
-        tt3mm.txt
+        xtc43.txt
+        xtc32.txt
+        xtc3mm.txt
         
+3. #4-40 tapped holes: #43 Drill Bit
+
+        xt43.txt
+
 4. #4-40 close fit: #32 Drill Bit
 
-        tt32.txt
-        
-5. Pockets: 3/32" End Mill
+        xt32.txt
 
-        tt332.txt
-        
+5. #4-40 mounting holes: 3mm Drill Bit
+
+        xt3mm.txt
+          
 ### Top, Bottomside
 
 1. The pocket: 3/32" End Mill
 
-        tb332.txt
+        xb332.txt
         
 ### Bottom, Topside
 
-1. Center Drill
+1. Pockets: 3/32" End Mill
 
-        btc.txt
+        yt332.txt
+
+1. Center Drills
+
+        ytc45.txt
+        ytc43a.txt
+        ytc43b.txt
+        ytc3mm.txt
 
 2. Post pockets: #45 Drill Bit
 
-        bt45.txt
+        yt45.txt
         
 3. #4-40 tapped holes and IO holes: #43 Drill Bit
 
-        bt43.txt
+        yt43.txt
         
 4. #4-40 mounting holes: 3mm Drill Bit
 
-        bt3mm.txt
+        yt3mm.txt
         
-5. Pockets: 3/32" End Mill
 
-        bt332.txt
         
 ### Bottom, Bottomside
 
 1. Pockets: 3/32" End Mill
 
-        bb332.txt
+        yb332.txt
 
 ## Guidelines for CNC machining (Bridgeport EZTrak)
 
