@@ -101,7 +101,7 @@ These g-code files are generated in a certain order. Particularly, I assume that
         
 3. #4-40 tapped holes and IO holes: #43 Drill Bit
 
-        yt43.txt
+        yt43.txt (Z = -0.300")
         
 4. #4-40 mounting holes: 3mm Drill Bit
 
