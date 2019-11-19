@@ -10,25 +10,25 @@
 
 2. Screws for fastening (4 for each)
 
-    #4-40 Brass socket head screw, Length = 5/8"
+    \#4-40 Brass socket head screw, Length = 5/8"
 
     https://www.mcmaster.com/93465a111
 
 3. Screws for mounting (2 for each)
 
-    #4-40 Brass Pan Head Phillips Screws, Length = 1"
+    \#4-40 Brass Pan Head Phillips Screws, Length = 1"
 
     https://www.mcmaster.com/94070a115
 
 4. Nuts for mounting (2 for each)
 
-    #4-40 Brass hex nut, Width = 1/4", Height = 3/32"
+    \#4-40 Brass hex nut, Width = 1/4", Height = 3/32"
 
     https://www.mcmaster.com/92671a005
 
 5. Screws for thermalization (1 for each)
 
-    #4-40 Brass socket head screw, Length = 1/4"
+    \#4-40 Brass socket head screw, Length = 1/4"
 
     https://www.mcmaster.com/93465a106
     
@@ -64,15 +64,15 @@ These g-code files are generated in a certain order. Particularly, I assume that
         xtc32.txt (Z = -0.135")
         xtc3mm.txt (Z = -0.135")
         
-3. #4-40 tapped holes: #43 Drill Bit
+3. \#4-40 tapped holes: #43 Drill Bit
 
         xt43.txt (Z = -0.620")
 
-4. #4-40 close fit: #32 Drill Bit (Z = 0.620")
+4. \#4-40 close fit: #32 Drill Bit (Z = 0.620")
 
         xt32.txt (Z = -0.620")
 
-5. #4-40 mounting holes: 3mm Drill Bit (Z = 0.620")
+5. \#4-40 mounting holes: 3mm Drill Bit (Z = 0.620")
 
         xt3mm.txt (Z = -0.620")
           
@@ -99,11 +99,11 @@ These g-code files are generated in a certain order. Particularly, I assume that
 
         yt45.txt (Z = -0.0667")
         
-3. #4-40 tapped holes and IO holes: #43 Drill Bit
+3. \#4-40 tapped holes and IO holes: #43 Drill Bit
 
         yt43.txt (Z = -0.300")
         
-4. #4-40 mounting holes: 3mm Drill Bit
+4. \#4-40 mounting holes: 3mm Drill Bit
 
         yt3mm.txt (Z = -0.300")
         
