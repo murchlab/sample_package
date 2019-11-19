@@ -60,21 +60,21 @@ These g-code files are generated in a certain order. Particularly, I assume that
 
 2. Center Drills
 
-        xtc43.txt
-        xtc32.txt
-        xtc3mm.txt
+        xtc43.txt (Z = -0.015")
+        xtc32.txt (Z = -0.135")
+        xtc3mm.txt (Z = -0.135")
         
 3. #4-40 tapped holes: #43 Drill Bit
 
-        xt43.txt
+        xt43.txt (Z = -0.620")
 
-4. #4-40 close fit: #32 Drill Bit
+4. #4-40 close fit: #32 Drill Bit (Z = 0.620")
 
-        xt32.txt
+        xt32.txt (Z = -0.620")
 
-5. #4-40 mounting holes: 3mm Drill Bit
+5. #4-40 mounting holes: 3mm Drill Bit (Z = 0.620")
 
-        xt3mm.txt
+        xt3mm.txt (Z = -0.620")
           
 ### Top, Bottomside
 
@@ -90,14 +90,14 @@ These g-code files are generated in a certain order. Particularly, I assume that
 
 1. Center Drills
 
-        ytc45.txt
-        ytc43a.txt
-        ytc43b.txt
-        ytc3mm.txt
+        ytc45.txt (Z = -0.015")
+        ytc43a.txt (Z = -0.105")
+        ytc43b.txt (Z = -0.055")
+        ytc3mm.txt (Z = -0.055")
 
 2. Post pockets: #45 Drill Bit
 
-        yt45.txt
+        yt45.txt (Z = -0.0667")
         
 3. #4-40 tapped holes and IO holes: #43 Drill Bit
 
@@ -105,7 +105,7 @@ These g-code files are generated in a certain order. Particularly, I assume that
         
 4. #4-40 mounting holes: 3mm Drill Bit
 
-        yt3mm.txt
+        yt3mm.txt (Z = -0.300")
         
 
         
