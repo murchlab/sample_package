@@ -16,9 +16,9 @@
 
 3. Screws for mounting (2 for each)
 
-    #4-40 Brass socket head screw, Length = 1"
+    #4-40 Brass Pan Head Phillips Screws, Length = 1"
 
-    https://www.mcmaster.com/93465a114
+    https://www.mcmaster.com/94070a115
 
 4. Nuts for mounting (2 for each)
 
