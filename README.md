@@ -185,7 +185,7 @@ We do both roughing & finishing procedures. But the finishing procedure is manua
         
     b. For finishing
     
-        Maching: From WIP (Work in Progress)
+        Machine: From WIP (Work in Progress)
         
 ### Drilling
 
