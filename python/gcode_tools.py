@@ -4,7 +4,7 @@ import os
 
 def drill_tool(path, Z, pecking=True):
 
-    Z_pecking = 0.1   # in
+    Z_pecking = 0.05   # in
     Z_feedrate = 4    # in/min
     Z_init = 0.25     # in
     Z_fastmove = 0.1  # in
