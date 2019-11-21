@@ -106,5 +106,20 @@ def drill_tool(path, Z, pecking=True):
     file.close()
 
 
-# drill_tool(r"../g-code/ttc.txt", Z=-0.015, pecking=True)
+def mill_tool(path):
+    file = open(path, "r+")
+    output = ''
 
+    for line in file:
+        line = line.replace(' G40', '')
+        line = line.replace(' G41', '')
+        output += line
+
+    file.close()
+    if os.path.isfile(path + ".bak"):
+        os.remove(path + ".bak")
+    os.rename(path, path + ".bak")
+
+    file = open(path, "w")
+    file.write(output)
+    file.close()
