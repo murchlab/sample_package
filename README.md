@@ -154,20 +154,16 @@ We do both roughing & finishing procedures. G-code file for the finishing proced
         Leadin Feedrate = 4 in/min
     
 3. Side parameters:
-
-    a. For roughing
     
         Allowance = 0.01 in
         
         Stepover = 80%
       
-    b. For finishing
-    
-          Allowance = 0 in
-        
-          Stepover = 80%
+        Wedge Machining: True
       
 4. Depth parameters:
+
+    a. For roughing
 
         Bottom Allowance = 0 in
     
@@ -178,6 +174,19 @@ We do both roughing & finishing procedures. G-code file for the finishing proced
         Max Cut Amount = 0.02 in
     
         Final Cut Amount = 0.01 in
+        
+    b. for finishing
+    
+        Allowance = 0 in
+    
+        First Cut Amount = 10 in
+    
+        Max Cut Amount = 10 in
+    
+        Final Cut Amount = 0 in
+        
+        (The value "10 in" can be as large as possible)
+        
         
 ### Drilling
 
