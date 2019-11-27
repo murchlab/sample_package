@@ -84,30 +84,34 @@ These G-code files are generated in a certain order. Particularly, I assume that
         
 ### Bottom, Topside
 
-1. Pockets: 3/32" End Mill
+1. Open pocket: 3/8"" End Mill
+
+        yt38.txt
+
+2. Pockets: 3/32" End Mill
 
         yt332.txt
 
-1. Center Drills
+3. Center Drills
 
         ytc45.txt (Z = -0.015")
         ytc43.txt (Z = -0.055")
         ytc2p3.txt (Z = -0.105")
         ytc3mm.txt (Z = -0.055")
 
-2. Post pockets: #45 Drill Bit
+4. Post pockets: #45 Drill Bit
 
         yt45.txt (Z = -0.0667")
         
-3. \#4-40 tapped holes: #43 Drill Bit
+5. \#4-40 tapped holes: #43 Drill Bit
 
         yt43.txt (Z = -0.300")
         
-4. Coaxial holes: 2.3mm Drill BIt
+6. Coaxial holes: 2.3mm Drill BIt
 
         yt2p3.txt (Z = -0.300")
         
-4. \#4-40 mounting holes: 3mm Drill Bit
+7. \#4-40 mounting holes: 3mm Drill Bit
 
         yt3mm.txt (Z = -0.300")
         
