@@ -1,4 +1,4 @@
-# Sample Package v1.2
+# Sample Package v1.3
 
 ## Purchase list
 
@@ -107,9 +107,9 @@ These G-code files are generated in a certain order. Particularly, I assume that
 
         yt43.txt (Z = -0.300")
         
-6. Coaxial holes: 2.3mm Drill BIt
+6. Coaxial holes: #42 Drill BIt
 
-        yt2p3.txt (Z = -0.300")
+        yt40.txt (Z = -0.300")
         
 7. \#4-40 mounting holes: 3mm Drill Bit
 
