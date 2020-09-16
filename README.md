@@ -147,7 +147,7 @@ In order to bypass these commands, we use python scripts to modify the G-code fi
 
 ### Milling
 
-We do both roughing & finishing procedures. G-code file for the finishing procedure is modified by the python script "modify_gcode.py".
+We do both roughing & finishing procedures.
 
 1. Spindle
 
